@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'Karla': ['Karla', 'sans-serif'],
+      },
       backgroundImage: {
         //'hero-pattern': "url('/public/images/hero-pattern.svg')",
         'footer-texture': "url('/public/images/Screen Shot 2022-04-05 at 10.51.47 AM.png')",

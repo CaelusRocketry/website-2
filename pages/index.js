@@ -5,8 +5,9 @@ import ca from "../public/images/Screen Shot 2022-05-22 at 1.19.37 PM.png"
 
 import cat23 from "../public/images/d16.png"
 import cat233 from "../public/images/tr.png"
+import cal333 from "../public/images/cal333.webp"
 
-import d from "../public/images/Screen Shot 2022-04-23 at 11.04.38 AM.png"
+import jkl from "../public/images/jkl.webp"
 import c from "../public/images/mission.jpeg"
 import b from "../public/images/1145359.webp"
 import a from "../public/images/mEBa4or.png"
@@ -15,8 +16,14 @@ import social from "../public/images/Screen Shot 2022-04-23 at 12.08.50 PM.png"
 import f from "../public/images/formed.webp"
 import g from "../public/images/alpha1.webp"
 import h from "../public/images/confer.webp"
+import hh from "../public/images/ano.webp"
+
 import i from "../public/images/enginer.webp"
+import ii from "../public/images/ii.webp"
+
 import j from "../public/images/ethanol.webp"
+import jj from "../public/images/1cn.webp"
+
 import k from "../public/images/ki.webp"
 import l from "../public/images/cal1.webp"
 import m from "../public/images/cal2.webp"
@@ -34,7 +41,7 @@ export default function Home() {
       /></div>
       <div className="absolute w-full bottom-0 inset-x-0 text-white text-xs text-center leading-4">
       <div className="pb-24 mb-4 flex items-center justify-center">
-    <div>
+    <div className = "">
       <h1 className = " text-white text-8xl flex flex-row justify-evenly items-center">
       PROJECT
       </h1>
@@ -81,7 +88,7 @@ export default function Home() {
       -
       </h1>
       <h1 className = " text-white text-2xl flex flex-row justify-evenly items-center">
-      Alphex 5A
+      Aphlex 1C
       </h1>
       </div>
 
@@ -93,7 +100,7 @@ export default function Home() {
       -
       </h1>
       <h1 className = "text-white text-2xl flex flex-row justify-evenly items-center">
-      242 sec
+      173.76 sec
       </h1>
       </div>
 
@@ -105,7 +112,7 @@ export default function Home() {
       -
       </h1>
       <h1 className = "text-white text-2xl justify-evenly items-center">
-      Liquid methane, liquid oxygen
+      Ethanol, nitrous oxide
       </h1>
       </div>
 
@@ -117,7 +124,7 @@ export default function Home() {
       -
       </h1>
       <h1 className = "text-white text-2xl flex flex-row justify-evenly items-center">
-      43 sec
+      3.6 sec
       </h1>
       </div>
 
@@ -141,7 +148,7 @@ export default function Home() {
       -
       </h1>
       <h1 className = "text-white text-2xl flex flex-row justify-evenly items-center">
-      12 km (7.5 miles)
+      2500 ft
       </h1>
       </div>
 
@@ -158,7 +165,7 @@ export default function Home() {
       -
       </h1>
       <h1 className = "text-white text-2xl ">
-      Recovery system
+      Parachute
       </h1>
       </div>
 
@@ -170,7 +177,7 @@ export default function Home() {
       -
       </h1>
       <h1 className = "text-white text-2xl ">
-      5000 N (1124 lbs.)
+      2.6 kN
       </h1>
       </div>
 
@@ -182,7 +189,7 @@ export default function Home() {
       -
       </h1>
       <h1 className = "text-white text-2xl flex flex-row justify-evenly items-center">
-      Helium blowdown
+      Nitrogen blowdown
       </h1>
       </div>
 
@@ -194,7 +201,7 @@ export default function Home() {
       -
       </h1>
       <h1 className = "text-white text-2xl flex flex-row justify-evenly items-center">
-      480 m/s (1073 mph)
+      200 m/s
       </h1>
       </div>
 
@@ -206,7 +213,7 @@ export default function Home() {
       -
       </h1>
       <h1 className = " text-white text-2xl flex flex-row justify-evenly items-center">
-      Regenerative & film cooling
+      PVC Ablative
       </h1>
       </div>
 
@@ -230,9 +237,9 @@ export default function Home() {
     <div className="shadow-2xl">
       <Image className=" object-cover md:h-full md:w-full" src={b} alt="">
     </Image>
-    <div className="p-8">
+    <div className="font-Karla p-8">
       <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">Project Caelus</div>
-      <a href="#" className="block mt-1 text-lg leading-tight font-extralight semibold text-red-400 hover:underline">The Mission Statement</a>
+      <a href="#" className="block mt-1 text-lg leading-tight font-Karla font-extralight semibold text-red-400 hover:underline">Mission</a>
       <p className="mt-2 text-white">
       The mission at Project Caelus is to design, build, test, and 
       launch a bipropellant liquid-fueled rocket to the edge of space while also 
@@ -252,7 +259,7 @@ export default function Home() {
       <Image className=" object-cofillver md:h-full md:w-full" src={b} alt="">
     </Image>
     <div className="p-8">
-      <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">The First Project</div>
+      <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">The Rocket</div>
       <a href="#" className="block mt-1 text-lg leading-tight font-extralight semibold text-red-400 hover:underline">Callisto I</a>
       <p className="mt-2 text-white">
       The Callisto I launch vehicle will utilize an improved version of the Aphlex 1C engine, aptly named Aphlex 1D. The launch of Callisto I 
@@ -275,7 +282,7 @@ export default function Home() {
     </Image>
     <div className="p-8">
       <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">Open Source</div>
-      <a href="https://www.cnn.com/" className="block mt-1 text-lg leading-tight font-extralight semibold text-red-400 hover:underline">Check out our Research Paper!</a>
+      <a href="https://drive.google.com/file/d/1BcAm3sYxLWUuVY77Sl3LaBaUpoqlH6Yi/view" className="block mt-1 text-lg leading-tight font-extralight semibold text-red-400 hover:underline">Check out our Research Paper!</a>
       <p className="mt-2 text-xl font-medium text-red-400">
 </p>
 </div>
@@ -310,7 +317,7 @@ export default function Home() {
         <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-indigo-700 dark:ring-gray-900 dark:bg-blue-900">
             <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
-        <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">Aphlex 1B - Initial Cold Flow </h3>
+        <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">Aphlex 1B - Ethanol Water Cold Flow </h3>
         <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">September 13th, 2020</time>
         <div className = "flex flex-row">
 
@@ -339,6 +346,20 @@ export default function Home() {
         <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-indigo-700 dark:ring-gray-900 dark:bg-blue-900">
             <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
+        <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">Aphlex 1B - Nitrous Oxide Water Cold Flow</h3>
+        <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">February 27, 2021</time>
+        <div className = "flex flex-row">
+        <p className="mr-10 text-base font-normal text-white dark:text-white">The second essential test conducted by Project Caelus, the nitrous water cold flow test further tested plumbing system design as well as electronics, programming, and safety procedures. This test once again utilized water pressurized with nitrogen in the nitrous oxide propellant system. This test was successfully conducted 3 times in one day!"</p>
+      <div className="">
+        <Image src={hh} alt="">
+        </Image>
+        </div>
+        </div>
+    </li>
+    <li className="mb-12 ml-6">            
+        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-indigo-700 dark:ring-gray-900 dark:bg-blue-900">
+            <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+        </span>
         <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">Aphlex 1C - Engine Redesign </h3>
         <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">March 13, 2021</time>
         <div className = "flex flex-row">
@@ -353,12 +374,54 @@ export default function Home() {
         <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-indigo-700 dark:ring-gray-900 dark:bg-blue-900">
             <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
-        <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">Aphlex 1C - Ethanol Cold Flow</h3>
-        <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">May, 2021</time>
+        <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">Aphlex 1C - Ethanol Water Cold Flow</h3>
+        <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">January 23, 2022</time>
         <div className = "flex flex-row">
-        <p className="mr-10 text-base font-normal text-white dark:text-white">The ethanol cold flow test will be another major milestone, as it will be the first time ethanol is introduced into the plumbing system. This test will run very similarly to the ethanol water cold flow test, however, it will use actual ethanol in place of water. This will once again entail stricter safety procedures and will bring us closer to a static engine fire.</p>
+        <p className="mr-10 text-base font-normal text-white dark:text-white">Following a complete overhaul of the electronics and programming systems for the Aphlex 1C test stand, we ensured that pressure could be handled on the ethanol side of our test stand, validated sensor data, calibration, and leak testing procedures.</p>
       <div className="">
         <Image src={j} alt="">
+        </Image>
+        </div>
+        </div>
+    </li>
+    <li className="mb-12 ml-6">            
+        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-indigo-700 dark:ring-gray-900 dark:bg-blue-900">
+            <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+        </span>
+        <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">Aphlex 1C — Nitrous Oxide Water Cold Flow</h3>
+        <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">April 2, 2022</time>
+        <div className = "flex flex-row">
+        <p className="mr-10 text-base font-normal text-white dark:text-white">This test ensured that the test stand can hold and maintain pressure for propellants, gain accurate readings from all sensors and probes, successfully actuate all valves, and deliver the necessary conditions for combustion to the engine, using inert water instead of reactive nitrous oxide.</p>
+      <div className="">
+        <Image src={jj} alt="">
+        </Image>
+        </div>
+        </div>
+    </li>
+    <li className="mb-12 ml-6">            
+        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-indigo-700 dark:ring-gray-900 dark:bg-blue-900">
+            <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+        </span>
+        <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">Aphlex 1C - Full Water Cold Flow - Full Assembly</h3>
+        <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">April 3, 2022</time>
+        <div className = "flex flex-row">
+        <p className="mr-10 text-base font-normal text-white dark:text-white">The full water cold flow unifies the testing of the ethanol and nitrous towers by simulating the responsibility of managing two towers simultaneously. It requires improved organization and logistical management of procedures for each tower and reliability of all electronics, software, plumbing, and structural elements for each tower, as the range of failure modes is more than doubled.</p>
+      <div className="">
+        <Image src={ii} alt="">
+        </Image>
+        </div>
+        </div>
+    </li>
+    <li className="mb-12 ml-6">            
+        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-indigo-700 dark:ring-gray-900 dark:bg-blue-900">
+            <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+        </span>
+        <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">Aphlex 1C – Nitrous Oxide Cold Flow</h3>
+        <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">June, 2022</time>
+        <div className = "flex flex-row">
+        <p className="mr-10 text-base font-normal text-white dark:text-white">The nitrous oxide cold flow test is a major milestone as it's the first time that actual propellants will be used in a cold flow test. This test entails running self-pressurizing nitrous oxide through the nitrous plumbing system. Using nitrous oxide requires all parts of the system to be cleaned with a rigorous oxygen cleaning process, and safety procedures must be credibly comprehensive to ensure team safvery strict and comprehensive!</p>
+      <div className="">
+        <Image src={jkl} alt="">
         </Image>
         </div>
         </div>
@@ -403,6 +466,21 @@ export default function Home() {
         <p className="mr-10 mb-4 text-base font-normal text-white dark:text-white">Beyond Callisto I, based on collected data and research findings, the Project Caelus team will progress towards larger rockets producing more thrusts and potentially using different propellant combinations. Callisto II is currently planned as an intermediary launch vehicle between Callisto I, which will launch to 5,000 feet, and Callisto III, which will launch to space.</p>
       <div className="">
         <Image src={m} alt="">
+        </Image>
+        </div>
+        </div>
+    </li>
+    <li className="mb-24 ml-6">
+        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-indigo-700 dark:ring-gray-900 dark:bg-blue-900">
+            <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+        </span>
+        <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">Callisto III</h3>
+        <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">2024</time>
+        <div className = "flex flex-row">
+
+        <p className="mr-10 mb-4 text-base font-normal text-white dark:text-white">The Callisto III rocket is the current final goal of our project and will reach the Karman line, the border between Earth and space, at 100km above sea level.</p>
+      <div className="">
+        <Image src={cal333} alt="">
         </Image>
         </div>
         </div>

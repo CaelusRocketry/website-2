@@ -2,7 +2,9 @@ import { useState } from 'react'
 import Image from "next/image"
 import cat2 from "../public/images/Black_background.jpeg"
 import cat3 from "../public/images/pc.jpeg"
-import cat4 from "../public/images/ad3.jpeg"
+import cat4 from "../public/images/w.jpeg"
+import cat44 from "../public/images/ad3.jpeg"
+
 import cat6 from "../public/images/ar.webp"
 import cat7 from "../public/images/n.png"
 import cat8 from "../public/images/sa.webp"
@@ -108,11 +110,10 @@ export default function about() {
 
     <div className = "w-1/2">
     <div className="flex flex-items-center justify-center pt-12 pb-8 underline decoration-indigo-500 underline-offset-8 decoration-4 uppercase tracking-wide text-2xl text-white font-extralight semibold">President/CEO</div>
-    <div className="flex flex-items-center justify-center pb-12   underline-offset-8 decoration-4 tracking-wide text-3xl text-white font-extralight semibold">suny ithaca stanford rejects</div>
+    <div className="flex flex-items-center justify-center pb-12   underline-offset-8 decoration-4 tracking-wide text-3xl text-white font-extralight semibold">Aditya Vasantharao</div>
 <div className = "text-white pr-16 pl-16">
         <h1>
-        Hi! Im Aditya, the Founder and Project Lead of Potentia Robotics, and a junior at TJHSST. Oftentimes we believe that high-schoolers—due to financial constraints and gaps in knowledge—are limited in what they can achieve, especially when it comes to large-scale engineering projects that are more suited to being conducted in corporate R&D labs or PhD labs at large, world-renowned universities. I created Potentia Robotics to prove that this isn’t the case—that it’s definitely possible for high schoolers to conduct groundbreaking research that makes the stuff of sci-fi movies a reality. I want to show that there is no barrier of entry to these projects; all that’s necessary to get started is a passionate team, some Google Docs, and an unyielding will to see the project through to completion. As the Project Lead of Potentia Robotics, I’m responsible for managing the team’s overall operations and managing the overall design of Olympian by working with subteam leads to make top-level design decisions, crafting the team’s overall business strategy, managing and fine-tuning the team’s organizational structure, being the representative for the team when interacting with sponsors, partners, and the outside world as a whole, and serving as the bridge between each of the subteams. I also sometimes do more technically involved work (programming, designing, accounting, etc.) in each subteam.
-        </h1>
+Persnonal Statement        </h1>
         <div className = "">
         <h1>
           "join potentia"- av 2022
@@ -128,7 +129,7 @@ export default function about() {
     </div>
 
     <div className = " w-1/2">
-        <Image src={cat4}>
+        <Image src={cat44}>
         </Image>
     </div>
 
