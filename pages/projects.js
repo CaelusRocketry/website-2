@@ -219,7 +219,7 @@ export default function projects() {
   </div>
 
 
-<div class="snap-x mx-auto snap-mandatory h-screen flex w-screen overflow-scroll">
+<div className="snap-x mx-auto snap-mandatory h-screen flex w-screen overflow-scroll">
 
 
   <div className = "bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0 flex flex-row">

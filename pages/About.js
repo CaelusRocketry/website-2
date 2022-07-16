@@ -112,18 +112,12 @@ export default function about() {
     <div className="flex flex-items-center justify-center pt-12 pb-8 underline decoration-indigo-500 underline-offset-8 decoration-4 uppercase tracking-wide text-2xl text-white font-extralight semibold">President/CEO</div>
     <div className="flex flex-items-center justify-center pb-12   underline-offset-8 decoration-4 tracking-wide text-3xl text-white font-extralight semibold">Aditya Vasantharao</div>
 <div className = "text-white pr-16 pl-16">
-        <h1>
-Persnonal Statement        </h1>
         <div className = "">
         <h1>
-          "join potentia"- av 2022
+        Hi! I’m Aditya, the president of Project Caelus, and a senior at TJHSST. Oftentimes we believe that high-schoolers—due to financial constraints and gaps in knowledge—are limited in what they can achieve, especially when it comes to large-scale engineering projects that are more suited to being conducted in corporate R&D labs or PhD labs at large, world-renowned universities. I joined Project Caelus to prove that this isn’t the case—that it’s definitely possible for high schoolers to conduct groundbreaking research that makes the stuff of sci-fi movies a reality. As the president of Project Caelus, I’m responsible for managing the team’s overall operations and cutting-edge engineering work, resourcing strategy, cultivating organizational structure and culture, and representing the organization to our partners. Through Project Caelus, I’m also a guest lecturer at the Social Entrepreneurship Laboratory (BMGT 486U) at the University of Maryland's Smith School of Business.
         </h1>
         </div>
-        <div className = "">
-        <h1>
-        "potentia does not take caelus rejects" - av 2022
-        </h1>
-        </div>
+
 
     </div>
     </div>
@@ -589,7 +583,7 @@ Persnonal Statement        </h1>
 
 <div className="flex flex-items-center justify-center pt-12 pb-8 underline decoration-indigo-500 underline-offset-8 decoration-4 uppercase tracking-wide text-4xl text-white font-extralight semibold">Including our Sponsors</div>
 <div className = " h-screen">
-<div class="pl-10 pr-10 snap-x mx-auto snap-mandatory h-screen flex w-screen overflow-scroll">
+<div className="pl-10 pr-10 snap-x mx-auto snap-mandatory h-screen flex w-screen overflow-scroll">
 
 
   <div className = "bg-gradient-to-r from-slate-900 to-black w-screen snap-start flex-shrink-0">
