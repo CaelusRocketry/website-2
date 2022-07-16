@@ -334,7 +334,7 @@ export default function Home() {
         <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">AIAA YPSE Conference 2020 </h3>
         <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">October 16, 2020</time>
         <div className = "flex flex-row">
-        <p className="mr-10 text-base font-normal text-white dark:text-white">The Caelus team presented our design for the Aphlex 1B engine at the AIAA Young Professionals, Students, and Educators (YPSE) 2020 conference and took home the "Best High School Presentation" prize for our design paper titled: "Development of a Cost-Effective 1.5kN Liquid-Fueled Rocket Propulsion System"</p>
+        <p className="mr-10 text-base font-normal text-white dark:text-white">The Caelus team presented our design for the Aphlex 1B engine at the AIAA Young Professionals, Students, and Educators (YPSE) 2020 conference and took home the Best High School Presentation prize for our design paper titled: Development of a Cost-Effective 1.5kN Liquid-Fueled Rocket Propulsion System</p>
       <div className="">
         <Image src={h} alt="">
         </Image>
@@ -348,7 +348,7 @@ export default function Home() {
         <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">Aphlex 1B - Nitrous Oxide Water Cold Flow</h3>
         <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">February 27, 2021</time>
         <div className = "flex flex-row">
-        <p className="mr-10 text-base font-normal text-white dark:text-white">The second essential test conducted by Project Caelus, the nitrous water cold flow test further tested plumbing system design as well as electronics, programming, and safety procedures. This test once again utilized water pressurized with nitrogen in the nitrous oxide propellant system. This test was successfully conducted 3 times in one day!"</p>
+        <p className="mr-10 text-base font-normal text-white dark:text-white">The second essential test conducted by Project Caelus, the nitrous water cold flow test further tested plumbing system design as well as electronics, programming, and safety procedures. This test once again utilized water pressurized with nitrogen in the nitrous oxide propellant system. This test was successfully conducted 3 times in one day!</p>
       <div className="">
         <Image src={hh} alt="">
         </Image>
