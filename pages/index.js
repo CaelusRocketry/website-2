@@ -234,8 +234,7 @@ export default function Home() {
     <div className=" bg-black ">
   <div className="md:flex">
     <div className="shadow-2xl">
-      <Image className=" object-cover md:h-full md:w-full" src={b} alt="">
-    </Image>
+
     <div className="font-Karla p-8">
       <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">Project Caelus</div>
       <a href="#" className="block mt-1 text-lg leading-tight font-Karla font-extralight semibold text-red-400 hover:underline">Mission</a>
@@ -255,8 +254,7 @@ export default function Home() {
     <div className="bg-black">
   <div className="md:flex">
     <div className="">
-      <Image className=" object-cofillver md:h-full md:w-full" src={b} alt="">
-    </Image>
+
     <div className="p-8">
       <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">The Rocket</div>
       <a href="#" className="block mt-1 text-lg leading-tight font-extralight semibold text-red-400 hover:underline">Callisto I</a>
@@ -273,12 +271,11 @@ export default function Home() {
 
   </div>
 
-  <div className = " transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-24 pr-24 pb-24">
+  <div className = "flex-items items-center justify-center transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-24 pr-24 pb-24">
     <div className=" bg-black ">
   <div className="md:flex">
     <div className="">
-      <Image className=" object-cofillver md:h-full md:w-full" src={b} alt="">
-    </Image>
+
     <div className="p-8">
       <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">Open Source</div>
       <a href="https://drive.google.com/file/d/1BcAm3sYxLWUuVY77Sl3LaBaUpoqlH6Yi/view" className="block mt-1 text-lg leading-tight font-extralight semibold text-red-400 hover:underline">Check out our Research Paper!</a>
@@ -416,9 +413,9 @@ export default function Home() {
             <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd"></path></svg>
         </span>
         <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">Aphlex 1C – Nitrous Oxide Cold Flow</h3>
-        <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">June, 2022</time>
+        <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">August, 2022</time>
         <div className = "flex flex-row">
-        <p className="mr-10 text-base font-normal text-white dark:text-white">The nitrous oxide cold flow test is a major milestone as it&apos;s the first time that actual propellants will be used in a cold flow test. This test entails running self-pressurizing nitrous oxide through the nitrous plumbing system. Using nitrous oxide requires all parts of the system to be cleaned with a rigorous oxygen cleaning process, and safety procedures must be credibly comprehensive to ensure team safvery strict and comprehensive!</p>
+        <p className="mr-10 text-base font-normal text-white dark:text-white">The nitrous oxide cold flow test is a major milestone as it&apos;s the first time that actual propellants will be used in a cold flow test. This test entails running self-pressurizing nitrous oxide through the nitrous plumbing system. Using nitrous oxide requires all parts of the system to be cleaned with a rigorous oxygen cleaning process, and safety procedures must be comprehensive!</p>
       <div className="">
         <Image src={jkl} alt="">
         </Image>
@@ -430,7 +427,7 @@ export default function Home() {
             <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd"></path></svg>
         </span>
         <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">Aphlex 1C - Static Engine Fire</h3>
-        <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">June, 2021</time>
+        <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">August, 2022</time>
         <div className = "flex flex-row">
         <p className="mr-10 text-base font-normal text-white dark:text-white">The culmination of all of our years of hard work up until this point - this static engine fire will be an amazing and historic achievement for Project Caelus. Ethanol and nitrous oxide will flow into the Aphlex 1C engine and ignite, producing a peak of 2,500 Newtons of thrust. A key aspect of this test is the data collected which will enable high-accuracy characterization of the engine&apos;s performance, and this will prove essential in springboarding on to the future.</p>
       <div className="">
@@ -444,7 +441,7 @@ export default function Home() {
             <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd"></path></svg>
         </span>
         <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">Callisto I</h3>
-        <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">June, 2022</time>
+        <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">June, 2023</time>
         <div className = "flex flex-row">
 
         <p className="mr-10 mb-4 text-base font-normal text-white dark:text-white">The Callisto I launch vehicle will utilize an improved version of the Aphlex 1C engine. The launch of Callisto I will be the first-ever liquid-fueled rocket launch by a high school team and among the first of all amateur groups in the world. The current target apogee for this inaugural rocket is 2,500 feet, and it will be a fundamental milestone in our quest for space.</p>
@@ -459,10 +456,10 @@ export default function Home() {
             <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd"></path></svg>
         </span>
         <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">Callisto II</h3>
-        <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">Beyond 2022</time>
+        <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">2024</time>
         <div className = "flex flex-row">
 
-        <p className="mr-10 mb-4 text-base font-normal text-white dark:text-white">Beyond Callisto I, based on collected data and research findings, the Project Caelus team will progress towards larger rockets producing more thrusts and potentially using different propellant combinations. Callisto II is currently planned as an intermediary launch vehicle between Callisto I, which will launch to 5,000 feet, and Callisto III, which will launch to space.</p>
+        <p className="mr-10 mb-4 text-base font-normal text-white dark:text-white">Beyond Callisto I, based on collected data and research findings, the Project Caelus team will progress towards larger rockets producing more thrusts and potentially using different propellant combinations. Callisto II is currently planned as an intermediary launch vehicle between Callisto I, which will launch to 10 kilometers, and Callisto III, which will launch to space.</p>
       <div className="">
         <Image src={m} alt="">
         </Image>
@@ -474,7 +471,7 @@ export default function Home() {
             <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd"></path></svg>
         </span>
         <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">Callisto III</h3>
-        <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">2024</time>
+        <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">2025</time>
         <div className = "flex flex-row">
 
         <p className="mr-10 mb-4 text-base font-normal text-white dark:text-white">The Callisto III rocket is the current final goal of our project and will reach the Karman line, the border between Earth and space, at 100km above sea level.</p>
