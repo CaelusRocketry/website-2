@@ -261,9 +261,9 @@ export default function Home() {
       <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">The Rocket</div>
       <a href="#" className="block mt-1 text-lg leading-tight font-extralight semibold text-red-400 hover:underline">Callisto I</a>
       <p className="mt-2 text-white">
-      The Callisto I launch vehicle will utilize an improved version of the Aphlex 1C engine, aptly named Aphlex 1D. The launch of Callisto I 
+      The Callisto I launch vehicle will utilize an improved version of the Aphlex 1C engine. The launch of Callisto I 
       will be the first-ever liquid-fueled rocket launch by a high school team and among the first of all amateur groups in the world. 
-      The current target apogee for this inaugural rocket is 5,000 feet, and it will be a fundamental milestone in the quest for space.
+      The current target apogee for this inaugural rocket is 2,500 feet, and it will be a fundamental milestone in our quest for space.
 </p>
 </div>
   </div>
@@ -447,7 +447,7 @@ export default function Home() {
         <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">June, 2022</time>
         <div className = "flex flex-row">
 
-        <p className="mr-10 mb-4 text-base font-normal text-white dark:text-white">The Callisto I launch vehicle will utilize an improved version of the Aphlex 1C engine, aptly named Aphlex 1D. The launch of Callisto I will be the first-ever liquid-fueled rocket launch by a high school team and among the first of all amateur groups in the world. The current target apogee for this inaugural rocket is 5,000 feet, and it will be a fundamental milestone in the quest for space.</p>
+        <p className="mr-10 mb-4 text-base font-normal text-white dark:text-white">The Callisto I launch vehicle will utilize an improved version of the Aphlex 1C engine. The launch of Callisto I will be the first-ever liquid-fueled rocket launch by a high school team and among the first of all amateur groups in the world. The current target apogee for this inaugural rocket is 2,500 feet, and it will be a fundamental milestone in our quest for space.</p>
       <div className="">
         <Image src={l} alt="">
         </Image>
