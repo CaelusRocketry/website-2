@@ -49,7 +49,7 @@ export default function Home() {
       </h1>
       
       <h1 className = "z-20 text-white text-2xl flex flex-row justify-evenly items-center">
-      The first high-school team to take a liquid-fueled rocket to space.      
+      The first high-school team in the world to take a liquid-fueled rocket to space.      
       </h1>
       <div className = "animate-bounce mt-12 ml-96 mr-96 flex items-center justify-center h-24 w-24">
       <Image className=""
