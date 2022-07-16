@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Image from "next/image"
 import cat2 from "../public/images/sbt.png"
 import cat23 from "../public/images/Screen Shot 2022-04-23 at 10.03.41 AM.png"
@@ -12,8 +11,7 @@ import lllll from "../public/images/ld4.jpeg"
 
 import sft from "../public/images/sft.webp"
 import social from "../public/images/Screen Shot 2022-04-23 at 12.08.50 PM.png"
-import Head from 'next/head'
-// import { Main } from 'next/document'
+import Head from "next/head"
 import ca from "../public/images/Screen Shot 2022-05-22 at 1.19.37 PM.png"
 import cat1 from "../public/images/e.png"
 import cat3 from "../public/images/e2.png"
@@ -50,7 +48,7 @@ export default function subteams() {
           About
         </title>
       </Head>
-      <main className='h-screen bg-black'>
+      <main className="h-screen bg-black">
       <div className = "text-black">
       <div className="">
 

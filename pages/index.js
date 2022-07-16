@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Image from "next/image"
 import cat2 from "../public/images/lll.jpg"
 import ca from "../public/images/Screen Shot 2022-05-22 at 1.19.37 PM.png"
@@ -306,7 +305,7 @@ export default function Home() {
         <h3 className="font-extralight semibold flex items-center mb-1 text-lg text-white dark:text-white">Project Caelus Formed </h3>
         <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">November 26, 2018</time>
         <div className = "flex flex-row">
-        <p className="mr-10 mb-4 text-base font-normal text-white dark:text-white">The initial Project Caelus team was created after a long round of interviews. We started as a team full of passion and curiosity, and most importantly eager to take on challenges and learn a lot. We've come a long way, learning and growing an incredible amount since it all started, but we'll never forget where it all began.</p>
+        <p className="mr-10 mb-4 text-base font-normal text-white dark:text-white">The initial Project Caelus team was created after a long round of interviews. We started as a team full of passion and curiosity, and most importantly eager to take on challenges and learn a lot. We&apos;ve come a long way, learning and growing an incredible amount since it all started, but we&apos;ll never forget where it all began.</p>
       <div className="">
         <Image src={f} alt="">
         </Image>
@@ -363,7 +362,7 @@ export default function Home() {
         <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">Aphlex 1C - Engine Redesign </h3>
         <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">March 13, 2021</time>
         <div className = "flex flex-row">
-        <p className="mr-10 text-base font-normal text-white dark:text-white">With the team's growing experience and grasp of rocket science, we tackled an engine redesign to optimize our engine's performance with our hardware constraints. With this process, we increased our planned thrust from 1,500 to 2,500 Newtons and the Aphlex 1C engine has the potential to reach our target altitude of 5,000 feet with continued improvements.</p>
+        <p className="mr-10 text-base font-normal text-white dark:text-white">With the team&apos;s growing experience and grasp of rocket science, we tackled an engine redesign to optimize our engine&apos;s performance with our hardware constraints. With this process, we increased our planned thrust from 1,500 to 2,500 Newtons and the Aphlex 1C engine has the potential to reach our target altitude of 5,000 feet with continued improvements.</p>
       <div className="">
         <Image src={i} alt="">
         </Image>
@@ -419,7 +418,7 @@ export default function Home() {
         <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">Aphlex 1C – Nitrous Oxide Cold Flow</h3>
         <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">June, 2022</time>
         <div className = "flex flex-row">
-        <p className="mr-10 text-base font-normal text-white dark:text-white">The nitrous oxide cold flow test is a major milestone as it's the first time that actual propellants will be used in a cold flow test. This test entails running self-pressurizing nitrous oxide through the nitrous plumbing system. Using nitrous oxide requires all parts of the system to be cleaned with a rigorous oxygen cleaning process, and safety procedures must be credibly comprehensive to ensure team safvery strict and comprehensive!</p>
+        <p className="mr-10 text-base font-normal text-white dark:text-white">The nitrous oxide cold flow test is a major milestone as it&apos;s the first time that actual propellants will be used in a cold flow test. This test entails running self-pressurizing nitrous oxide through the nitrous plumbing system. Using nitrous oxide requires all parts of the system to be cleaned with a rigorous oxygen cleaning process, and safety procedures must be credibly comprehensive to ensure team safvery strict and comprehensive!</p>
       <div className="">
         <Image src={jkl} alt="">
         </Image>
@@ -433,7 +432,7 @@ export default function Home() {
         <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">Aphlex 1C - Static Engine Fire</h3>
         <time className="block mb-2 text-sm font-normal leading-none text-red-400 dark:text-gray-500">June, 2021</time>
         <div className = "flex flex-row">
-        <p className="mr-10 text-base font-normal text-white dark:text-white">The culmination of all of our years of hard work up until this point - this static engine fire will be an amazing and historic achievement for Project Caelus. Ethanol and nitrous oxide will flow into the Aphlex 1C engine and ignite, producing a peak of 2,500 Newtons of thrust. A key aspect of this test is the data collected which will enable high-accuracy characterization of the engine's performance, and this will prove essential in springboarding on to the future.</p>
+        <p className="mr-10 text-base font-normal text-white dark:text-white">The culmination of all of our years of hard work up until this point - this static engine fire will be an amazing and historic achievement for Project Caelus. Ethanol and nitrous oxide will flow into the Aphlex 1C engine and ignite, producing a peak of 2,500 Newtons of thrust. A key aspect of this test is the data collected which will enable high-accuracy characterization of the engine&apos;s performance, and this will prove essential in springboarding on to the future.</p>
       <div className="">
         <Image src={k} alt="">
         </Image>

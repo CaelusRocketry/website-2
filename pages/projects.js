@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Image from "next/image"
 import cat2 from "../public/images/Black_background.jpeg"
 import cat23 from "../public/images/Screen Shot 2022-04-23 at 10.03.41 AM.png"
@@ -8,8 +7,7 @@ import b from "../public/images/1145359.webp"
 import a from "../public/images/mEBa4or.png"
 import e from "../public/images/1552756305626.jpeg"
 import social from "../public/images/Screen Shot 2022-04-23 at 12.08.50 PM.png"
-import Head from 'next/head'
-// import { Main } from 'next/document'
+import Head from "next/head"
 import cat1 from "../public/images/e.png"
 import cat3 from "../public/images/e2.png"
 import cat4 from "../public/images/pid.png"
@@ -32,7 +30,7 @@ export default function projects() {
           About
         </title>
       </Head>
-      <main className='h-screen'>
+      <main className="h-screen">
       <div className = "bg-gradient-to-r from-slate-900 to-black h-screen">
 
       <div className = "bg-gradient-to-r from-slate-900 to-black">
@@ -258,7 +256,7 @@ export default function projects() {
     <div className="pt-6 pl-6 tracking-wide text-base text-white font-extralight semibold">Like the completed ethanol cold flow, the nitrous oxide (water) cold flow test includes tanks and a similarly structured test stand. However, since we want to mirror our current plumbing layout to that of the nitrous cold flow test (with nitrous), the P&ID looks a little different from that of the ethanol cold flow test.</div>
     <div className="pt-6 pl-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Elements (Programming)</div>
     <div className="pt-6 pl-6 tracking-wide text-base text-white font-extralight semibold">So, what did the programming team do to help make the cold flow a reality? Well, hidden behind thousands of lines of elegant code are 2 key programs - a simple control loop known as RCA (read, control, actuate) that is controlled by MCL (Main Control Loop) and our ground station software.</div>
-    <div className="pt-6 pl-6 tracking-wide text-base text-white font-extralight semibold">The ground station can be thought of as a 'hub' on Earth that will communicate with our rocket 100km above the air! Ground station can actuate valves on the rocket, soft/hard abort in case anything goes wrong, receive live data pertaining to the rocket, request specific data from the rocket, and more. Currently, it does all this through web sockets over WiFi, but we will have to look into long-range communication methods in the future.</div>
+    <div className="pt-6 pl-6 tracking-wide text-base text-white font-extralight semibold">The ground station can be thought of as a hub on Earth that will communicate with our rocket 100km above the air! Ground station can actuate valves on the rocket, soft/hard abort in case anything goes wrong, receive live data pertaining to the rocket, request specific data from the rocket, and more. Currently, it does all this through web sockets over WiFi, but we will have to look into long-range communication methods in the future.</div>
 
     </div>
 
@@ -311,7 +309,7 @@ export default function projects() {
 
     <div className="pt-6 pl-6 tracking-wide text-xl text-white font-extralight semibold">July 2022</div>
     <div className="pt-6 pl-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
-    <div className="pt-6 pl-6 tracking-wide text-xl text-white font-extralight semibold">In this test, we will run ethanol pressurized with nitrogen gas through our ethanol tower and nitrous oxide through our nitrous tower and feed these into the injector and into the combustion chamber, where they will ignite and go through the nozzle to get a reading on the thrust. This test has particular emphasis on ignition, injector functionality, and hazard prevention since it models what our actual rocket's interior will consist of.</div>
+    <div className="pt-6 pl-6 tracking-wide text-xl text-white font-extralight semibold">In this test, we will run ethanol pressurized with nitrogen gas through our ethanol tower and nitrous oxide through our nitrous tower and feed these into the injector and into the combustion chamber, where they will ignite and go through the nozzle to get a reading on the thrust. This test has particular emphasis on ignition, injector functionality, and hazard prevention since it models what our actual rocket&apos;s interior will consist of.</div>
     <div className="pt-6 pl-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">More information to come!</div>
     
     </div>

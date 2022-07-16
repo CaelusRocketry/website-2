@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState } from "react"
 import Image from "next/image"
 import cat2 from "../public/images/Black_background.jpeg"
 import cat3 from "../public/images/pc.jpeg"
@@ -16,8 +16,7 @@ import b from "../public/images/1145359.webp"
 import a from "../public/images/mEBa4or.png"
 import e from "../public/images/1552756305626.jpeg"
 import social from "../public/images/Screen Shot 2022-04-23 at 12.08.50 PM.png"
-import Head from 'next/head'
-// import { Main } from 'next/document'
+import Head from "next/head"
 
 export default function about() {
     return (
@@ -114,7 +113,7 @@ export default function about() {
 <div className = "text-white pr-16 pl-16">
         <div className = "">
         <h1>
-        Hi! I’m Aditya, the president of Project Caelus, and a senior at TJHSST. Oftentimes we believe that high-schoolers—due to financial constraints and gaps in knowledge—are limited in what they can achieve, especially when it comes to large-scale engineering projects that are more suited to being conducted in corporate R&D labs or PhD labs at large, world-renowned universities. I joined Project Caelus to prove that this isn’t the case—that it’s definitely possible for high schoolers to conduct groundbreaking research that makes the stuff of sci-fi movies a reality. As the president of Project Caelus, I’m responsible for managing the team’s overall operations and cutting-edge engineering work, resourcing strategy, cultivating organizational structure and culture, and representing the organization to our partners. Through Project Caelus, I’m also a guest lecturer at the Social Entrepreneurship Laboratory (BMGT 486U) at the University of Maryland's Smith School of Business.
+        Hi! I&apos;m Aditya, the president of Project Caelus, and a senior at TJHSST. Oftentimes we believe that high-schoolers—due to financial constraints and gaps in knowledge—are limited in what they can achieve, especially when it comes to large-scale engineering projects that are more suited to being conducted in corporate R&D labs or PhD labs at large, world-renowned universities. I joined Project Caelus to prove that this isn&apos;t the case—that it&apos;s definitely possible for high schoolers to conduct groundbreaking research that makes the stuff of sci-fi movies a reality. As the president of Project Caelus, I’m responsible for managing the team&apos;s overall operations and cutting-edge engineering work, resourcing strategy, cultivating organizational structure and culture, and representing the organization to our partners. Through Project Caelus, I&apos;m also a guest lecturer at the Social Entrepreneurship Laboratory (BMGT 486U) at the University of Maryland&apos;s Smith School of Business.
         </h1>
         </div>
 
