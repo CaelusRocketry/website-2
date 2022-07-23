@@ -41,375 +41,375 @@ import cat10 from "../public/images/li_auto_x2.jpg"
 import cat11 from "../public/images/c3.webp"
 
 export default function subteams() {
-    return (
-      <div>
-        <Head>
+  return (
+    <div>
+      <Head>
         <title>
           About
         </title>
       </Head>
       <main className="h-screen bg-black">
-      <div className = "text-black">
-      <div className="">
+        <div className="text-black">
+          <div className="">
 
-      <div className=" bg-black relative overflow-hidden">
-  <div className = "pb-8 object-contain h-full w-full">
-<Image className="h-screen w-screen"
-      src={ca}
-      /></div>
-      <div className="absolute w-full bottom-0 inset-x-0 text-white text-xs text-center leading-4">
-      <div className=" mb-4 flex items-center justify-center">
-    <div>
+            <div className=" bg-black relative overflow-hidden">
+              <div className="pb-8 object-contain h-full w-full">
+                <Image className="h-screen w-screen"
+                  src={ca}
+                /></div>
+              <div className="absolute w-full bottom-0 inset-x-0 text-white text-xs text-center leading-4">
+                <div className=" mb-4 flex items-center justify-center">
+                  <div>
 
 
-<div className = "font-thin pl-24 pb-36 flex flex-row">
-    <div>
-      <div className = " transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24 flex flex-row">
-      <h1 className = " text-white text-2xl flex flex-row justify-evenly items-center">
-      Propulsion
-      </h1>
+                    <div className="font-thin pl-24 pb-36 flex flex-row">
+                      <div>
+                        <div className=" transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24 flex flex-row">
+                          <h1 className=" text-white text-2xl flex flex-row justify-evenly items-center">
+                            Propulsion
+                          </h1>
 
-      </div>
+                        </div>
 
-      <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
-      <h1 className = "text-white text-2xl flex flex-row justify-evenly items-center">
-Manufacturing      </h1>
+                        <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
+                          <h1 className="text-white text-2xl flex flex-row justify-evenly items-center">
+                            Manufacturing      </h1>
 
-      </div>
+                        </div>
 
-      <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
-      <h1 className = " text-white text-2xl justify-evenly items-center">
-      Structures
-      </h1>
+                        <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
+                          <h1 className=" text-white text-2xl justify-evenly items-center">
+                            Structures
+                          </h1>
 
-      </div>
+                        </div>
 
-      <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
-      <h1 className = " text-white text-2xl flex flex-row justify-evenly items-center">
-Software      </h1>
+                        <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
+                          <h1 className=" text-white text-2xl flex flex-row justify-evenly items-center">
+                            Software      </h1>
 
-      </div>
+                        </div>
 
-      <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
-      <h1 className = " text-white text-2xl ">
-Testing      </h1>
+                        <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
+                          <h1 className=" text-white text-2xl ">
+                            Testing      </h1>
 
-      </div>
+                        </div>
 
-      <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
-      <h1 className = "text-white text-2xl">
-      Avionics
-      </h1>
-      </div>
+                        <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
+                          <h1 className="text-white text-2xl">
+                            Avionics
+                          </h1>
+                        </div>
 
-      </div>
+                      </div>
 
 
-<div>
-    
-      <div className = "pt-72 pl-72 ml-48 transition ease-in-out font-extralight hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4  flex flex-row">
-      <h1 className = "text-white text-5xl ">
-      The Technical Side
-      </h1>
+                      <div>
 
-      </div>
+                        <div className="pt-72 pl-72 ml-48 transition ease-in-out font-extralight hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4  flex flex-row">
+                          <h1 className="text-white text-5xl ">
+                            The Technical Side
+                          </h1>
 
-      
-      
+                        </div>
 
-      
 
-      <h1 className = "ml-20 pb-40 text-white text-2xl flex flex-row justify-evenly items-center">
-      </h1>
-      </div>
-      </div>
-    
-
-
-
-      </div>
-      </div>
-      </div>
-</div>
-
-<div className = "h-screen bg-black">
-<div className="snap-x mx-auto snap-mandatory h-screen flex w-screen overflow-scroll">
-
-
-  <div className = "bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
-  <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">Propulsion</div>
-<div className = "flex flex-row">
-    <div className = "">
-
-    <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
-    <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
-    
-    </div>
-    
-
-
-  </div>
-  <div className = "flex items-center justify-center pt-8">
-  <Image className="" src={cat1} alt="">
-    </Image>
-    <Image className="" src={cat3} alt="">
-    </Image>
-    </div>
-  </div>
-
-  <div className = "bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
-  <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">Manufacturing</div>
-<div className = "flex flex-row">
-    <div className = "">
-
-    <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
-    <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
-    
-    </div>
-    
-
-
-  </div>
-  <div className = "flex items-center justify-center pt-8">
-  <Image className="" src={cat9} alt="">
-    </Image>
-    <Image className="" src={cat90} alt="">
-    </Image>
-    </div>
-  </div>
-
-  <div className = "bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
-  <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">Structures</div>
-<div className = "flex flex-row">
-    <div className = "">
-
-    <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
-    <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
-    
-    </div>
-    
-
-
-  </div>
-  <div className = "flex items-center justify-center pt-8">
-    <div className = "w-1/2 h-1/2">
-  <Image className="" src={cat900} alt="">
-    </Image>
-    </div>
-    <div className = "w-1/2 h-1/2">
-
-    <Image className="" src={cat30} alt="">
-    </Image>
-    </div>
-
-    </div>
-  </div>
-
-  <div className = "bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
-  <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">Software</div>
-<div className = "flex flex-row">
-    <div className = "">
-
-    <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
-    <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
-    
-    </div>
-    
-
-
-  </div>
-  <div className = "flex items-center justify-center pt-8">
-    <div className = "w-1/2">
-  <Image className="" src={cat4} alt="">
-    </Image>
-    </div>
-    <div className = "w-1/2">
-    <Image className="" src={sft} alt="">
-    </Image>
-    </div>
-    </div>
-  </div>
-
-  <div className = "bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
-  <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">Testing</div>
-<div className = "flex flex-row">
-    <div className = "">
-
-    <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
-    <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
-    
-    </div>
-    
-
-
-  </div>
-  <div className = "flex items-center justify-center pt-8">
-  <div className="p-8">
-      <a href="https://docs.google.com/document/d/1gCBBjTNtp-1y6pgiAZXzNUuuphlio33a4ynD4KjzjI4/edit" className="block mt-1 text-3xl pb-16 leading-tight font-extralight semibold text-red-400 hover:underline">Full Cold Flow</a>
-      <a href="https://docs.google.com/document/d/14GF5MH0N8Yn4MlxrpHHRUVzbeaHv8t03B6nIXnOz9cA/edit" className="block mt-1 text-3xl pb-16 leading-tight font-extralight semibold text-red-400 hover:underline">Ethanol Cold Flow</a>
-      <a href="https://docs.google.com/document/d/1iI569RTfhWI-AH_hSjzrGw4IRnJhikwxDennu7UTNIM/edit" className="block mt-1 text-3xl pb-16 leading-tight font-extralight semibold text-red-400 hover:underline">Nitrous Oxide Cold Flow</a>
-      <a href="https://docs.google.com/document/d/1AZ03p1kXIEovYirM9cFSvwT6QkPfyxXxAKxO2AltLW8/edit" className="block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline">Nitrous Water Cold Flow</a>
-
-      <p className="mt-2 text-black">
-      </p>
-    </div>
-    </div>
-  </div>
-
-  <div className = "bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
-  <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">Avionics</div>
-<div className = "flex flex-row">
-    <div className = "">
-
-    <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
-    <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
-    
-    </div>
-    
-
-
-  </div>
-  <div className = "flex items-center justify-center pt-8">
-  <Image className="" src={et1} alt="">
-    </Image>
-    <Image className="" src={et2} alt="">
-    </Image>
-    </div>
-  </div>
-  
-  
-  
-  </div>
-</div>
-
-
-<div className = "pt-8 h-screen bg-black">
-<div className=" flex items-center justify-center pt-8 pb-12 tracking-wide text-5xl text-white underline decoration-indigo-500 underline-offset-8 decoration-4 font-extralight">The Operations Side</div>
-
-<div className="snap-x mx-auto snap-mandatory h-screen flex w-screen overflow-scroll">
-
-
-  <div className = "bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
-  <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">Outreach</div>
-<div className = "flex flex-row">
-    <div className = "">
-
-    <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
-    <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
-    
-    </div>
-    
-
-
-  </div>
-  <div className = "flex items-center justify-center pt-8">
-  <Image className="" src={cat7} alt="">
-    </Image>
-  <Image className="" src={cat5} alt="">
-    </Image>
-    <Image className="" src={cat6} alt="">
-    </Image>
-
-
-    <Image className="" src={cat70} alt="">
-    </Image>
-    <Image className="" src={cat80} alt="">
-    </Image>
-    </div>
-  </div>
-
-  <div className = "bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
-  <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">Finance</div>
-<div className = "flex flex-row">
-    <div className = "">
-
-    <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
-    <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
-    
-    </div>
-    
-
-
-  </div>
-  <div className = "flex items-center justify-center pt-8">
-  <Image className="" src={cat300} alt="">
-    </Image>
-    <Image className="" src={cat3000} alt="">
-    </Image>
-    </div>
-  </div>
-
-  <div className = "bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
-  <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">Networking</div>
-<div className = "flex flex-row">
-    <div className = "">
-
-    <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
-    <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
-    
-    </div>
-    
-
-
-  </div>
-  <div className = "flex items-center justify-center pt-8">
-    <div className = "w-1/2 h-1/2">
-  <Image className="" src={cat9000} alt="">
-    </Image>
-    </div>
-    <div className = "w-1/2 h-1/2 pr-8">
-
-    <Image className="" src={cat800} alt="">
-    </Image>
-    </div>
-
-    </div>
-  </div>
-
-  <div className = "bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
-  <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">Social Media</div>
-<div className = "flex flex-row">
-    <div className = "">
-
-    <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
-    <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
-    
-    </div>
-    
-
-
-  </div>
-  <div className = "flex items-center justify-center pt-8">
-    <div className = "w-1/3">
-  <Image className="" src={lll} alt="">
-    </Image>
-    </div>
-    <div className = "w-1/3">
-    <Image className="" src={llll} alt="">
-    </Image>
-    </div>
-    <div className = "w-1/3">
-    <Image className="" src={lllll} alt="">
-    </Image>
-    </div>
-    </div>
-  </div>
-
-  
-  
-  
-  </div>
-</div>
+
+
+
+
+                        <h1 className="ml-20 pb-40 text-white text-2xl flex flex-row justify-evenly items-center">
+                        </h1>
+                      </div>
+                    </div>
+
+
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="h-screen bg-black">
+              <div className="snap-x mx-auto snap-mandatory h-screen flex w-screen overflow-scroll">
+
+
+                <div className="bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
+                  <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">Propulsion</div>
+                  <div className="flex flex-row">
+                    <div className="">
+
+                      <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
+                      <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
+
+                    </div>
+
+
+
+                  </div>
+                  <div className="flex items-center justify-center pt-8">
+                    <Image className="" src={cat1} alt="">
+                    </Image>
+                    <Image className="" src={cat3} alt="">
+                    </Image>
+                  </div>
+                </div>
+
+                <div className="bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
+                  <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">Manufacturing</div>
+                  <div className="flex flex-row">
+                    <div className="">
+
+                      <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
+                      <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
+
+                    </div>
+
+
+
+                  </div>
+                  <div className="flex items-center justify-center pt-8">
+                    <Image className="" src={cat9} alt="">
+                    </Image>
+                    <Image className="" src={cat90} alt="">
+                    </Image>
+                  </div>
+                </div>
+
+                <div className="bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
+                  <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">Structures</div>
+                  <div className="flex flex-row">
+                    <div className="">
+
+                      <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
+                      <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
+
+                    </div>
+
+
+
+                  </div>
+                  <div className="flex items-center justify-center pt-8">
+                    <div className="w-1/2 h-1/2">
+                      <Image className="" src={cat900} alt="">
+                      </Image>
+                    </div>
+                    <div className="w-1/2 h-1/2">
+
+                      <Image className="" src={cat30} alt="">
+                      </Image>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div className="bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
+                  <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">Software</div>
+                  <div className="flex flex-row">
+                    <div className="">
+
+                      <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
+                      <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
+
+                    </div>
+
+
+
+                  </div>
+                  <div className="flex items-center justify-center pt-8">
+                    <div className="w-1/2">
+                      <Image className="" src={cat4} alt="">
+                      </Image>
+                    </div>
+                    <div className="w-1/2">
+                      <Image className="" src={sft} alt="">
+                      </Image>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
+                  <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">Testing</div>
+                  <div className="flex flex-row">
+                    <div className="">
+
+                      <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
+                      <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
+
+                    </div>
+
+
+
+                  </div>
+                  <div className="flex items-center justify-center pt-8">
+                    <div className="p-8">
+                      <a href="https://docs.google.com/document/d/1gCBBjTNtp-1y6pgiAZXzNUuuphlio33a4ynD4KjzjI4/edit" className="block mt-1 text-3xl pb-16 leading-tight font-extralight semibold text-red-400 hover:underline">Full Cold Flow</a>
+                      <a href="https://docs.google.com/document/d/14GF5MH0N8Yn4MlxrpHHRUVzbeaHv8t03B6nIXnOz9cA/edit" className="block mt-1 text-3xl pb-16 leading-tight font-extralight semibold text-red-400 hover:underline">Ethanol Cold Flow</a>
+                      <a href="https://docs.google.com/document/d/1iI569RTfhWI-AH_hSjzrGw4IRnJhikwxDennu7UTNIM/edit" className="block mt-1 text-3xl pb-16 leading-tight font-extralight semibold text-red-400 hover:underline">Nitrous Oxide Cold Flow</a>
+                      <a href="https://docs.google.com/document/d/1AZ03p1kXIEovYirM9cFSvwT6QkPfyxXxAKxO2AltLW8/edit" className="block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline">Nitrous Water Cold Flow</a>
+
+                      <p className="mt-2 text-black">
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
+                  <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">Avionics</div>
+                  <div className="flex flex-row">
+                    <div className="">
+
+                      <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
+                      <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
+
+                    </div>
+
+
+
+                  </div>
+                  <div className="flex items-center justify-center pt-8">
+                    <Image className="" src={et1} alt="">
+                    </Image>
+                    <Image className="" src={et2} alt="">
+                    </Image>
+                  </div>
+                </div>
+
+
+
+              </div>
+            </div>
+
+
+            <div className="pt-8 h-screen bg-black">
+              <div className=" flex items-center justify-center pt-8 pb-12 tracking-wide text-5xl text-white underline decoration-indigo-500 underline-offset-8 decoration-4 font-extralight">The Operations Side</div>
+
+              <div className="snap-x mx-auto snap-mandatory h-screen flex w-screen overflow-scroll">
+
+
+                <div className="bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
+                  <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">Outreach</div>
+                  <div className="flex flex-row">
+                    <div className="">
+
+                      <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
+                      <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
+
+                    </div>
+
+
+
+                  </div>
+                  <div className="flex items-center justify-center pt-8">
+                    <Image className="" src={cat7} alt="">
+                    </Image>
+                    <Image className="" src={cat5} alt="">
+                    </Image>
+                    <Image className="" src={cat6} alt="">
+                    </Image>
+
+
+                    <Image className="" src={cat70} alt="">
+                    </Image>
+                    <Image className="" src={cat80} alt="">
+                    </Image>
+                  </div>
+                </div>
+
+                <div className="bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
+                  <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">Finance</div>
+                  <div className="flex flex-row">
+                    <div className="">
+
+                      <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
+                      <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
+
+                    </div>
+
+
+
+                  </div>
+                  <div className="flex items-center justify-center pt-8">
+                    <Image className="" src={cat300} alt="">
+                    </Image>
+                    <Image className="" src={cat3000} alt="">
+                    </Image>
+                  </div>
+                </div>
+
+                <div className="bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
+                  <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">Networking</div>
+                  <div className="flex flex-row">
+                    <div className="">
+
+                      <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
+                      <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
+
+                    </div>
+
+
+
+                  </div>
+                  <div className="flex items-center justify-center pt-8">
+                    <div className="w-1/2 h-1/2">
+                      <Image className="" src={cat9000} alt="">
+                      </Image>
+                    </div>
+                    <div className="w-1/2 h-1/2 pr-8">
+
+                      <Image className="" src={cat800} alt="">
+                      </Image>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div className="bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
+                  <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">Social Media</div>
+                  <div className="flex flex-row">
+                    <div className="">
+
+                      <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
+                      <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
+
+                    </div>
+
+
+
+                  </div>
+                  <div className="flex items-center justify-center pt-8">
+                    <div className="w-1/3">
+                      <Image className="" src={lll} alt="">
+                      </Image>
+                    </div>
+                    <div className="w-1/3">
+                      <Image className="" src={llll} alt="">
+                      </Image>
+                    </div>
+                    <div className="w-1/3">
+                      <Image className="" src={lllll} alt="">
+                      </Image>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+              </div>
+            </div>
+
+          </div>
 
         </div>
-        
-      </div>
-      <div>
-        
-      </div>
+        <div>
+
+        </div>
       </main>
-      
-      </div>
-      
-    )
-  }
+
+    </div>
+
+  )
+}
