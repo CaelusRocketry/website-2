@@ -274,14 +274,20 @@ export default function Home() {
         <div className="flex-items items-center justify-center transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-24 pr-24 pb-24">
           <div className=" bg-black ">
             <div className="md:flex">
-              <div className="">
-
-                <div className="p-8">
-                  <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">Open Source</div>
-                  <a href="https://drive.google.com/file/d/1BcAm3sYxLWUuVY77Sl3LaBaUpoqlH6Yi/view" className="block mt-1 text-lg leading-tight font-extralight semibold text-red-400 hover:underline">Check out our Research Paper!</a>
-                  <p className="mt-2 text-xl font-medium text-red-400">
-                  </p>
-                </div>
+              <div className="p-0 text-center">
+                <h1 className="uppercase tracking-wide text-xl text-center mb-5 text-indigo-500 font-extralight semibold">Open Source - 
+                  <span className="inline text-lg leading-tight font-extralight semibold text-red-400"> Check out our research paper!</span>
+                </h1>
+                {/*<a href="https://drive.google.com/file/d/1BcAm3sYxLWUuVY77Sl3LaBaUpoqlH6Yi/view" className="block mt-1 text-lg leading-tight font-extralight semibold text-red-400 hover:underline">Check out our Research Paper!</a>*/}
+                <iframe
+                  frameborder="0"
+                  scrolling="no"
+                  width="640"
+                  height="480"
+                  src="https://drive.google.com/file/d/1BcAm3sYxLWUuVY77Sl3LaBaUpoqlH6Yi/preview"
+                >
+                </iframe>
+                {/*<p className="mt-2 text-xl font-medium text-red-400"></p> --- What's the purpose of this*/}
               </div>
             </div>
           </div>
