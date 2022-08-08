@@ -385,24 +385,12 @@ export default function projects() {
 
 
           </div>
-          <div className="font-thin bg-slate-900 flex flex-row items-center justify center">
+          <div className="font-thin bg-slate-900 text-center flex-col items-center justify center">
 
-            <h1 className="text-white text-2xl pl-80 pt-4 pb-4">
-              Home
-            </h1>
-            <h1 className="text-white text-2xl pl-20 pt-4 pb-4">
-              Projects
-            </h1>
-            <h1 className="text-white text-2xl pl-20 pt-4 pb-4">
-              About
-            </h1>
-            <h1 className="text-white text-2xl pl-20 pt-4 pb-4">
-              Project Caelus 2022
-            </h1>
-            <h1 className="text-white text-2xl pl-20 pt-4 pb-4">
-              Social Media
-            </h1>
-          </div>
+<h1 className="underline underline-offset-8 decoration-1 text-center text-white text-lg pt-12 pb-12">
+Project Caelus | Copyright © 2018-2022. All rights reserved.
+</h1>
+</div>
         </div>
 
 
