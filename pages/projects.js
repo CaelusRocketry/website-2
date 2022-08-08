@@ -38,7 +38,7 @@ export default function projects() {
               <div className="underline decoration-red-400 underline-offset-8 decoration-4 uppercase tracking-wide text-4xl text-white font-extralight semibold">Completed</div>
             </div>
             <div className="pt-12 flex flex-row">
-              <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-6 pr-3">
+              <div className="transition ease-in-out pl-6 pr-3">
                 <div className=" rounded-3xl  bg-black">
                   <div className="md:flex">
                     <div className="rounded-3xl shadow-2xl">
@@ -56,7 +56,7 @@ export default function projects() {
                 </div>
               </div>
 
-              <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-3 pr-3">
+              <div className="transition ease-in-out pl-3 pr-3">
                 <div className=" rounded-3xl bg-black">
                   <div className="md:flex">
                     <div className="rounded-3xl shadow-2xl">
@@ -75,7 +75,7 @@ export default function projects() {
 
 
 
-              <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-3 pr-6">
+              <div className="transition ease-in-out pl-3 pr-6">
                 <div className=" rounded-3xl bg-black">
                   <div className="md:flex">
                     <div className="rounded-3xl shadow-2xl">
@@ -106,7 +106,7 @@ export default function projects() {
             </div>
             <div className="pt-12 flex flex-row">
 
-              <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-48 pr-3">
+              <div className="transition ease-in-out pl-48 pr-3">
                 <div className=" rounded-3xl  bg-black">
                   <div className="md:flex">
                     <div className="rounded-3xl shadow-2xl">
@@ -123,7 +123,7 @@ export default function projects() {
                 </div>
               </div>
 
-              <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-3 pr-48">
+              <div className="transition ease-in-out pl-3 pr-48">
                 <div className=" rounded-3xl bg-black">
                   <div className="md:flex">
                     <div className="rounded-3xl shadow-2xl">
@@ -157,7 +157,7 @@ export default function projects() {
             </div>
             <div className="pt-12 flex flex-row">
 
-              <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-6 pr-3 pb-12">
+              <div className="transition ease-in-out pl-6 pr-3 pb-12">
                 <div className=" rounded-3xl  bg-black">
                   <div className="md:flex">
                     <div className="rounded-3xl shadow-2xl">
@@ -174,7 +174,7 @@ export default function projects() {
                 </div>
               </div>
 
-              <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-3 pr-3 pb-12">
+              <div className="transition ease-in-out pl-3 pr-3 pb-12">
                 <div className=" rounded-3xl bg-black">
                   <div className="md:flex">
                     <div className="rounded-3xl shadow-2xl">
@@ -193,7 +193,7 @@ export default function projects() {
 
 
 
-              <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-3 pr-6 pb-12">
+              <div className="transition ease-in-out pl-3 pr-6 pb-12">
                 <div className=" rounded-3xl bg-black">
                   <div className="md:flex">
                     <div className="rounded-3xl shadow-2xl">

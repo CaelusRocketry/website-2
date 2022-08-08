@@ -5,6 +5,7 @@ import ca from "../public/images/Screen Shot 2022-05-22 at 1.19.37 PM.png"
 import cat23 from "../public/images/d16.png"
 import cat233 from "../public/images/tr.png"
 import cal333 from "../public/images/cal333.webp"
+import mnm from "../public/images/mainPage.jpeg"
 
 import jkl from "../public/images/jkl.webp"
 import c from "../public/images/mission.jpeg"
@@ -63,7 +64,7 @@ export default function Home() {
         </div>
 
         <div className="relative overflow-hidden">
-          <div className="pr-6 pt-24 animate-pulse object-contain h-full w-full">
+          <div className="pr-6 pt-24 animate-pulse">
             <Image className="h-screen w-screen"
               src={ca}
             /></div>
@@ -230,7 +231,7 @@ export default function Home() {
         </div>
 
         <div className="pt-12 flex flex-row">
-          <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-24 pr-6 pb-12">
+          <div className="h-1/2 w-1/2 transition ease-in-out hover:scale-20 duration-300 pl-24 pr-6 pb-12">
             <div className=" bg-black ">
               <div className="md:flex">
                 <div className="shadow-2xl">
@@ -250,7 +251,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-6 pr-24 pb-12">
+          <div className="h-1/2 w-1/2 transition ease-in-out hover:scale-20 duration-300 pl-6 pr-24 pb-12">
             <div className="bg-black">
               <div className="md:flex">
                 <div className="">
@@ -271,14 +272,17 @@ export default function Home() {
 
         </div>
 
-        <div className="flex-items items-center justify-center transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-24 pr-24 pb-24">
+        <div className="flex-items items-center justify-center transition ease-in-out hover:scale-20 duration-300 pl-24 pr-24 pb-24">
           <div className=" bg-black ">
-            <div className="md:flex">
+            <div className="">
               <div className="p-0 text-center">
                 <h1 className="uppercase tracking-wide text-xl text-center mb-5 text-indigo-500 font-extralight semibold">Open Source - 
                   <span className="inline text-lg leading-tight font-extralight semibold text-red-400"> Check out our research paper!</span>
                 </h1>
                 {/*<a href="https://drive.google.com/file/d/1BcAm3sYxLWUuVY77Sl3LaBaUpoqlH6Yi/view" className="block mt-1 text-lg leading-tight font-extralight semibold text-red-400 hover:underline">Check out our Research Paper!</a>*/}
+                <div className = "flex-items items-center justify-center">
+                <div className = "flex flex-row object-fill flex-items items-center justify-center">
+                  <div className = "object-fill flex-items items-center justify-center">
                 <iframe
                   frameborder="0"
                   scrolling="no"
@@ -287,6 +291,13 @@ export default function Home() {
                   src="https://drive.google.com/file/d/1BcAm3sYxLWUuVY77Sl3LaBaUpoqlH6Yi/preview"
                 >
                 </iframe>
+                </div>
+                <div className = "object-fill flex-items items-center justify-center">
+                <Image src={mnm} alt="">
+                  </Image>
+                  </div>
+                </div>
+                </div>
                 {/*<p className="mt-2 text-xl font-medium text-red-400"></p> --- What's the purpose of this*/}
               </div>
             </div>
@@ -491,22 +502,10 @@ export default function Home() {
           </ol>
         </div>
 
-        <div className="font-thin bg-slate-900 flex flex-row items-center justify center">
+        <div className="font-thin bg-slate-900 text-center flex-col items-center justify center">
 
-          <h1 className="text-white text-2xl pl-80 pt-4 pb-4">
-            Home
-          </h1>
-          <h1 className="text-white text-2xl pl-20 pt-4 pb-4">
-            Projects
-          </h1>
-          <h1 className="text-white text-2xl pl-20 pt-4 pb-4">
-            About
-          </h1>
-          <h1 className="text-white text-2xl pl-20 pt-4 pb-4">
-            Project Caelus 2022
-          </h1>
-          <h1 className="text-white text-2xl pl-20 pt-4 pb-4">
-            Social Media
+          <h1 className="underline underline-offset-8 decoration-1 text-center text-white text-lg pt-12 pb-12">
+          Project Caelus | Copyright © 2018-2022. All rights reserved.
           </h1>
         </div>
 

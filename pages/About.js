@@ -58,7 +58,7 @@ export default function about() {
         <div className="pr-48 pl-48 pt-12 flex flex-row">
 
 
-          <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-3 pr-3">
+        <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-3 pr-3">
             <div className=" rounded-3xl bg-black">
               <div className="md:flex">
                 <div className="rounded-3xl shadow-2xl">
@@ -77,7 +77,7 @@ export default function about() {
 
 
 
-          <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-3 pr-6">
+          <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-3 pr-3">
             <div className=" rounded-3xl bg-black">
               <div className="md:flex">
                 <div className="rounded-3xl shadow-2xl">
@@ -98,7 +98,7 @@ export default function about() {
         </div>
 
         <div className="pt-12 flex flex-row">
-          <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-6 pr-3">
+          <div className="transition ease-in-out pl-6 pr-3">
             <div className=" rounded-3xl  bg-black">
               <div className="md:flex">
                 <div className="rounded-3xl shadow-2xl">
@@ -116,7 +116,7 @@ export default function about() {
             </div>
           </div>
 
-          <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-3 pr-3">
+          <div className="transition ease-in-out pl-3 pr-3">
             <div className=" rounded-3xl bg-black">
               <div className="md:flex">
                 <div className="rounded-3xl shadow-2xl">
@@ -135,7 +135,7 @@ export default function about() {
 
 
 
-          <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-3 pr-6">
+          <div className="transition ease-in-out pl-3 pr-6">
             <div className=" rounded-3xl bg-black">
               <div className="md:flex">
                 <div className="rounded-3xl shadow-2xl">
@@ -153,7 +153,7 @@ export default function about() {
             </div>
           </div>
 
-          <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-6 pr-3">
+          <div className="transition ease-in-out pl-6 pr-3">
             <div className=" rounded-3xl  bg-black">
               <div className="md:flex">
                 <div className="rounded-3xl shadow-2xl">
@@ -171,7 +171,7 @@ export default function about() {
             </div>
           </div>
 
-          <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-3 pr-3">
+          <div className="transition ease-in-out pl-3 pr-3">
             <div className=" rounded-3xl bg-black">
               <div className="md:flex">
                 <div className="rounded-3xl shadow-2xl">
@@ -192,7 +192,7 @@ export default function about() {
 
         <div className="pt-12 flex flex-row">
 
-          <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-3 pr-6">
+          <div className="transition ease-in-out pl-3 pr-6">
             <div className=" rounded-3xl bg-black">
               <div className="md:flex">
                 <div className="rounded-3xl shadow-2xl">
@@ -210,7 +210,7 @@ export default function about() {
             </div>
           </div>
 
-          <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-3 pr-6">
+          <div className="transition ease-in-out pl-3 pr-6">
             <div className=" rounded-3xl bg-black">
               <div className="md:flex">
                 <div className="rounded-3xl shadow-2xl">
@@ -228,7 +228,7 @@ export default function about() {
             </div>
           </div>
 
-          <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-3 pr-6">
+          <div className="transition ease-in-out pl-3 pr-6">
             <div className=" rounded-3xl bg-black">
               <div className="md:flex">
                 <div className="rounded-3xl shadow-2xl">
@@ -246,7 +246,7 @@ export default function about() {
             </div>
           </div>
 
-          <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-3 pr-6">
+          <div className="transition ease-in-out pl-3 pr-6">
             <div className=" rounded-3xl bg-black">
               <div className="md:flex">
                 <div className="rounded-3xl shadow-2xl">
@@ -264,7 +264,7 @@ export default function about() {
             </div>
           </div>
 
-          <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-3 pr-6">
+          <div className="transition ease-in-out pl-3 pr-6">
             <div className=" rounded-3xl bg-black">
               <div className="md:flex">
                 <div className="rounded-3xl shadow-2xl">
