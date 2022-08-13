@@ -29,6 +29,8 @@ import l from "../public/images/cal1.webp"
 import m from "../public/images/cal2.webp"
 import cal3 from "../public/images/cal3.webp"
 
+import Attribute from "../components/attribute"
+
 export default function Home() {
   return (
     <div>
@@ -63,189 +65,52 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="relative overflow-hidden">
-          <div className="pr-6 pt-24 animate-pulse">
-            <Image className="h-screen w-screen"
-              src={ca}
-            /></div>
-          <div className="absolute w-full bottom-0 inset-x-0 text-white text-xs text-center leading-4">
-            <div className=" mb-4 flex items-center justify-center">
-              <div>
+        {/* TITLE */}
+        <h1 className="font-extralight underline decoration-indigo-500 underline-offset-8 decoration-4 text-white text-4xl pt-10 flex flex-row justify-evenly items-center">
+          Meet Callisto I
+        </h1>
 
-                <div className="font-extralight pb-8">
-                  <h1 className="underline decoration-indigo-500 underline-offset-8 decoration-4 text-white text-4xl flex flex-row justify-evenly items-center">
-                    Meet Callisto I
-                  </h1></div>
-
-
-                <div className="font-thin pb-36 flex flex-row">
-                  <div>
-                    <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24 flex flex-row">
-                      <h1 className=" text-white text-2xl flex flex-row justify-evenly items-center">
-                        Engine
-                      </h1>
-                      <h1 className="pl-4 pr-4 text-white text-2xl flex flex-row justify-evenly items-center">
-                        -
-                      </h1>
-                      <h1 className=" text-white text-2xl flex flex-row justify-evenly items-center">
-                        Aphlex 1C
-                      </h1>
-                    </div>
-
-                    <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
-                      <h1 className="text-white text-2xl flex flex-row justify-evenly items-center">
-                        Specific impulse
-                      </h1>
-                      <h1 className="pl-4 pr-4 text-white text-2xl flex flex-row justify-evenly items-center">
-                        -
-                      </h1>
-                      <h1 className="text-white text-2xl flex flex-row justify-evenly items-center">
-                        173.76 sec
-                      </h1>
-                    </div>
-
-                    <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
-                      <h1 className=" text-white text-2xl justify-evenly items-center">
-                        Propellants
-                      </h1>
-                      <h1 className="pl-4 pr-4 text-white text-2xl flex flex-row justify-evenly items-center">
-                        -
-                      </h1>
-                      <h1 className="text-white text-2xl justify-evenly items-center">
-                        Ethanol, nitrous oxide
-                      </h1>
-                    </div>
-
-                    <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
-                      <h1 className=" text-white text-2xl flex flex-row justify-evenly items-center">
-                        Burn time
-                      </h1>
-                      <h1 className="pl-4 pr-4 text-white text-2xl flex flex-row justify-evenly items-center">
-                        -
-                      </h1>
-                      <h1 className="text-white text-2xl flex flex-row justify-evenly items-center">
-                        3.6 sec
-                      </h1>
-                    </div>
-
-                    <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
-                      <h1 className=" text-white text-2xl ">
-                        Ignition source
-                      </h1>
-                      <h1 className="pl-4 pr-4 text-white text-2xl flex flex-row justify-evenly items-center">
-                        -
-                      </h1>
-                      <h1 className="text-white text-2xl ">
-                        Pyrotechnic charge
-                      </h1>
-                    </div>
-
-                    <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
-                      <h1 className="text-white text-2xl">
-                        Altitude
-                      </h1>
-                      <h1 className="pl-4 pr-4 text-white text-2xl flex flex-row justify-evenly items-center">
-                        -
-                      </h1>
-                      <h1 className="text-white text-2xl flex flex-row justify-evenly items-center">
-                        2500 ft
-                      </h1>
-                    </div>
-
-                  </div>
-
-
-                  <div>
-
-                    <div className="pl-80 transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
-                      <h1 className="text-white text-2xl ">
-                        Recovery system
-                      </h1>
-                      <h1 className="pl-4 pr-4 text-white text-2xl flex flex-row justify-evenly items-center">
-                        -
-                      </h1>
-                      <h1 className="text-white text-2xl ">
-                        Parachute
-                      </h1>
-                    </div>
-
-                    <div className="pl-80 transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
-                      <h1 className="text-white text-2xl ">
-                        Thrust
-                      </h1>
-                      <h1 className="pl-4 pr-4 text-white text-2xl flex flex-row justify-evenly items-center">
-                        -
-                      </h1>
-                      <h1 className="text-white text-2xl ">
-                        2.6 kN
-                      </h1>
-                    </div>
-
-                    <div className="pl-80 transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
-                      <h1 className=" text-white text-2xl flex flex-row justify-evenly items-center">
-                        Feed System
-                      </h1>
-                      <h1 className="pl-4 pr-4 text-white text-2xl flex flex-row justify-evenly items-center">
-                        -
-                      </h1>
-                      <h1 className="text-white text-2xl flex flex-row justify-evenly items-center">
-                        Nitrogen blowdown
-                      </h1>
-                    </div>
-
-                    <div className="pl-80 transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
-                      <h1 className="text-white text-2xl flex flex-row justify-evenly items-center">
-                        Max Speed
-                      </h1>
-                      <h1 className="pl-4 pr-4 text-white text-2xl flex flex-row justify-evenly items-center">
-                        -
-                      </h1>
-                      <h1 className="text-white text-2xl flex flex-row justify-evenly items-center">
-                        200 m/s
-                      </h1>
-                    </div>
-
-                    <div className="pl-80 transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
-                      <h1 className="text-white text-2xl flex flex-row justify-evenly items-center">
-                        Cooling system
-                      </h1>
-                      <h1 className="pl-4 pr-4 text-white text-2xl flex flex-row justify-evenly items-center">
-                        -
-                      </h1>
-                      <h1 className=" text-white text-2xl flex flex-row justify-evenly items-center">
-                        PVC Ablative
-                      </h1>
-                    </div>
-
-                    <h1 className="ml-20 pb-40 text-white text-2xl flex flex-row justify-evenly items-center">
-                    </h1>
-                  </div>
-                </div>
-
-
-
-
-              </div>
-            </div>
+        <div className="font-thin flex flex-row items-center">
+          {/* LEFT ATTRIBUTES */}
+          <div className='pl-24'>
+            <Attribute first="Engine" second="Aphlex 1C" />
+            <Attribute first="Specific Impulse" second="173.76 sec" />
+            <Attribute first="Propellants" second="Ethanol, nitrous oxide" />
+            <Attribute first="Burn time" second="3.6 sec" />
+            <Attribute first="Ignition source" second="Pyrotechnic charge" />
+            <Attribute first="Altitude" second="2500 ft" />
           </div>
-        </div>
 
-        <div className="pt-12 flex flex-row">
-          <div className="h-1/2 w-1/2 transition ease-in-out hover:scale-20 duration-300 pl-24 pr-6 pb-12">
-            <div className=" bg-black ">
-              <div className="md:flex">
-                <div className="shadow-2xl">
+          {/* ROCKET IMAGE */}
+          <div className="pt-6 animate-pulse">
+            <Image className="h-screen w-screen pr-6 pt-24 animate-pulse"
+              src={ca}
+            />
+          </div>
 
-                  <div className="font-Karla p-8">
-                    <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">Project Caelus</div>
-                    <a href="#" className="block mt-1 text-lg leading-tight font-Karla font-extralight semibold text-red-400 hover:underline">Mission</a>
-                    <p className="mt-2 text-white">
-                      The mission at Project Caelus is to design, build, test, and
-                      launch a bipropellant liquid-fueled rocket to the edge of space while also
-                      creating opportunities that introduce young kids to the ever-growing aerospace industry and teaching the community about the importance
-                      of STEM education in an increasingly technological world. Through our project, we hope to show young people that it’s possible to do
-                      something that has never been done before and that there is no age threshold to exploring science and pushing technological boundaries.</p>
-                  </div>
+          {/* RIGHT ATTRIBUTES */}
+          <div className='pr-24'>
+            <Attribute first="Recovery system" second="Parachute" />
+            <Attribute first="Thrust" second="2.6 kN" />
+            <Attribute first="Feed System" second="Nitrogen blowdown" />
+            <Attribute first="Max Speed" second="200 m/s" />
+            <Attribute first="Cooling system" second="PVC Ablative" />
+          </div>
+        </div> 
+
+        <div className="pt-12 pb-12 flex flex-row">
+          <div className="h-1/2 w-1/2 pl-24 pr-6 pb-12">
+            <div className="md:flex">
+              <div className="shadow-2xl">
+                <div className="font-Karla p-8">
+                  <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">Project Caelus</div>
+                  <a href="#" className="block mt-1 text-lg leading-tight font-Karla font-extralight semibold text-red-400 hover:underline">Mission</a>
+                  <p className="mt-2 text-white">
+                    The mission at Project Caelus is to design, build, test, and
+                    launch a bipropellant liquid-fueled rocket to the edge of space while also
+                    creating opportunities that introduce young kids to the ever-growing aerospace industry and teaching the community about the importance
+                    of STEM education in an increasingly technological world. Through our project, we hope to show young people that it’s possible to do
+                    something that has never been done before and that there is no age threshold to exploring science and pushing technological boundaries.</p>
                 </div>
               </div>
             </div>
