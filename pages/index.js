@@ -67,38 +67,41 @@ export default function Home() {
           </div>
         </div>
 
-        {/* TITLE */}
-        <h1 className="font-extralight underline decoration-indigo-500 underline-offset-8 decoration-4 text-white text-4xl pt-10 flex flex-row justify-evenly items-center">
-          Meet Callisto I
-        </h1>
+        {/* ROCKET PIC */}
+        <div className="flex flex-col items-center">
+          {/* TITLE */}
+          <h1 className="font-extralight underline decoration-indigo-500 underline-offset-8 decoration-4 text-white text-4xl pt-10 flex flex-row justify-evenly items-center">
+            Meet Callisto I
+          </h1>
 
-        <div className="font-thin flex flex-row items-center">
-          {/* LEFT ATTRIBUTES */}
-          <div className='pl-24'>
-            <Attribute first="Engine" second="Aphlex 1C" />
-            <Attribute first="Specific Impulse" second="173.76 sec" />
-            <Attribute first="Propellants" second="Ethanol, nitrous oxide" />
-            <Attribute first="Burn time" second="3.6 sec" />
-            <Attribute first="Ignition source" second="Pyrotechnic charge" />
-            <Attribute first="Altitude" second="2500 ft" />
-          </div>
+          <div className="font-thin flex flex-row items-center pt-6">
+            {/* LEFT ATTRIBUTES */}
+            <div className='pl-24'>
+              <Attribute first="Engine" second="Aphlex 1C" />
+              <Attribute first="Specific Impulse" second="173.76 sec" />
+              <Attribute first="Propellants" second="Ethanol, nitrous oxide" />
+              <Attribute first="Burn time" second="3.6 sec" />
+              <Attribute first="Ignition source" second="Pyrotechnic charge" />
+              <Attribute first="Altitude" second="2500 ft" />
+            </div>
 
-          {/* ROCKET IMAGE */}
-          <div className="pt-6 animate-pulse">
-            <Image className="h-screen w-screen pr-6 pt-24 animate-pulse"
-              src={ca}
-            />
-          </div>
+            {/* ROCKET IMAGE */}
+            <div className="animate-pulse">
+              <Image className="h-screen w-screen animate-pulse"
+                src={ca}
+              />
+            </div>
 
-          {/* RIGHT ATTRIBUTES */}
-          <div className='pr-24'>
-            <Attribute first="Recovery system" second="Parachute" />
-            <Attribute first="Thrust" second="2.6 kN" />
-            <Attribute first="Feed System" second="Nitrogen blowdown" />
-            <Attribute first="Max Speed" second="200 m/s" />
-            <Attribute first="Cooling system" second="PVC Ablative" />
-          </div>
-        </div> 
+            {/* RIGHT ATTRIBUTES */}
+            <div className='pr-24'>
+              <Attribute first="Recovery system" second="Parachute" />
+              <Attribute first="Thrust" second="2.6 kN" />
+              <Attribute first="Feed System" second="Nitrogen blowdown" />
+              <Attribute first="Max Speed" second="200 m/s" />
+              <Attribute first="Cooling system" second="PVC Ablative" />
+            </div>
+          </div> 
+        </div>
 
         <div className='flex flex-row items-center pt-12 pb-12'>
           <div className="flex flex-col items-center">
