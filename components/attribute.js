@@ -5,7 +5,7 @@ const Attribute = (props) => {
             <h1 className="pl-4 pr-4 text-white text-xl flex flex-row justify-evenly items-center">-</h1>
             <h1 className=" text-white text-xl flex flex-row justify-evenly items-center">{props.second}</h1>
         </div>
-    )
+    );
 }
 
-export default Attribute
+export default Attribute;

@@ -30,6 +30,7 @@ import m from "../public/images/cal2.webp"
 import cal3 from "../public/images/cal3.webp"
 
 import Attribute from "../components/attribute"
+import Description from "../components/description"
 
 export default function Home() {
   return (
@@ -98,74 +99,34 @@ export default function Home() {
           </div>
         </div> 
 
-        <div className="pt-12 pb-12 flex flex-row">
-          <div className="h-1/2 w-1/2 pl-24 pr-6 pb-12">
-            <div className="md:flex">
-              <div className="shadow-2xl">
-                <div className="font-Karla p-8">
-                  <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">Project Caelus</div>
-                  <a href="#" className="block mt-1 text-lg leading-tight font-Karla font-extralight semibold text-red-400 hover:underline">Mission</a>
-                  <p className="mt-2 text-white">
-                    The mission at Project Caelus is to design, build, test, and
-                    launch a bipropellant liquid-fueled rocket to the edge of space while also
-                    creating opportunities that introduce young kids to the ever-growing aerospace industry and teaching the community about the importance
-                    of STEM education in an increasingly technological world. Through our project, we hope to show young people that it’s possible to do
-                    something that has never been done before and that there is no age threshold to exploring science and pushing technological boundaries.</p>
-                </div>
-              </div>
-            </div>
+        <div className='flex flex-row items-center pt-12 pb-12'>
+          <div className="flex flex-col items-center">
+            <Description title='Project Caelus' subtitle='Mission'>
+              The mission at Project Caelus is to design, build, test, and
+              launch a bipropellant liquid-fueled rocket to the edge of space while also
+              creating opportunities that introduce young kids to the ever-growing aerospace industry and teaching the community about the importance
+              of STEM education in an increasingly technological world. Through our project, we hope to show young people that it’s possible to do
+              something that has never been done before and that there is no age threshold to exploring science and pushing technological boundaries.
+            </Description>
+
+            <Description title='The Rocket' subtitle='Callisto I'>
+              The Callisto I launch vehicle will utilize an improved version of the Aphlex 1C engine. The launch of Callisto I
+              will be the first-ever liquid-fueled rocket launch by a high school team and among the first of all amateur groups in the world.
+              The current target apogee for this inaugural rocket is 2,500 feet, and it will be a fundamental milestone in our quest for space.
+            </Description>
           </div>
 
-          <div className="h-1/2 w-1/2 transition ease-in-out hover:scale-20 duration-300 pl-6 pr-24 pb-12">
-            <div className="bg-black">
-              <div className="md:flex">
-                <div className="">
-
-                  <div className="p-8">
-                    <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">The Rocket</div>
-                    <a href="#" className="block mt-1 text-lg leading-tight font-extralight semibold text-red-400 hover:underline">Callisto I</a>
-                    <p className="mt-2 text-white">
-                      The Callisto I launch vehicle will utilize an improved version of the Aphlex 1C engine. The launch of Callisto I
-                      will be the first-ever liquid-fueled rocket launch by a high school team and among the first of all amateur groups in the world.
-                      The current target apogee for this inaugural rocket is 2,500 feet, and it will be a fundamental milestone in our quest for space.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <div className="flex-items items-center justify-center transition ease-in-out hover:scale-20 duration-300 pl-24 pr-24 pb-24">
-          <div className=" bg-black ">
-            <div className="">
-              <div className="p-0 text-center">
-                <h1 className="uppercase tracking-wide text-xl text-center mb-5 text-indigo-500 font-extralight semibold">Open Source - 
-                  <span className="inline text-lg leading-tight font-extralight semibold text-red-400"> Check out our research paper!</span>
-                </h1>
-                {/*<a href="https://drive.google.com/file/d/1BcAm3sYxLWUuVY77Sl3LaBaUpoqlH6Yi/view" className="block mt-1 text-lg leading-tight font-extralight semibold text-red-400 hover:underline">Check out our Research Paper!</a>*/}
-                <div className = "flex-items items-center justify-center">
-                <div className = "flex flex-row object-fill flex-items items-center justify-center">
-                  <div className = "object-fill flex-items items-center justify-center">
-                <iframe
-                  frameborder="0"
-                  scrolling="no"
-                  width="640"
-                  height="480"
-                  src="https://drive.google.com/file/d/1BcAm3sYxLWUuVY77Sl3LaBaUpoqlH6Yi/preview"
-                >
-                </iframe>
-                </div>
-                <div className = "object-fill flex-items items-center justify-center">
-                <Image src={mnm} alt="">
-                  </Image>
-                  </div>
-                </div>
-                </div>
-                {/*<p className="mt-2 text-xl font-medium text-red-400"></p> --- What's the purpose of this*/}
-              </div>
-            </div>
+          <div className='p-10'>
+            <h1 className="uppercase tracking-wide text-center text-xl mb-5 text-indigo-500 font-extralight semibold">Open Source -
+              <span className="inline text-lg leading-tight font-extralight semibold text-red-400"> Check out our research paper!</span>
+            </h1>
+            <iframe
+              frameborder="0"
+              scrolling="no"
+              width="600"
+              height="650"
+              src="https://drive.google.com/file/d/1BcAm3sYxLWUuVY77Sl3LaBaUpoqlH6Yi/preview"
+            />
           </div>
         </div>
 
