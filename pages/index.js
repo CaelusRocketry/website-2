@@ -40,9 +40,12 @@ export default function Home() {
 
         <div className="relative overflow-hidden">
           <div className="object-scale-down h-screen">
-            <Image className=""
-              src={cat23}
-            /></div>
+            {/* add video */}
+            <video autoplay loop muted>
+              <source src="movie.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
           <div className="absolute w-full bottom-0 inset-x-0 text-white text-xs text-center leading-4">
             <div className="pb-24 mb-4 flex items-center justify-center">
               <div className="">
@@ -134,11 +137,9 @@ export default function Home() {
           </div>
         </div>
 
-        {/* #TODO - Make nicer, this is ugly (im too tired to fix rn) */}
-        <div className="transition ease-in-out pb-12 text-center">
-          <button className="bg-transparent font-extralight semibold text-6xl text-white hover:bg-slate-900  py-2 px-4 border border-slate-500  rounded">
-            Timeline
-          </button>
+        {/* TITLE */}
+        <div className="pb-12 text-center">
+          <h1 className="font-extralight underline decoration-indigo-500 underline-offset-8 decoration-4 semibold text-6xl text-white">Timeline</h1>
         </div>
 
         <div className="drop-shadow-4xl pl-24 pr-24">
