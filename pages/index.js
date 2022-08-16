@@ -36,22 +36,22 @@ import TimelineItem from "../components/timelineItem"
 
 export default function Home() {
   return (
-    
+
     <div>
       <div className="bg-black">
- 
+
         <div className="relative overflow-hidden">
           <div className="object-scale-down h-screen">
-          <video
-        autoPlay
-        //loop
-        //muted
-        className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
-      >
-        <source       src="https://www.youtube.com/watch?v=fFOnvowbtYA"
- type="video/mp4" />
-      </video>
-            </div>
+            <video
+              autoPlay
+              //loop
+              //muted
+              className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
+            >
+              <source src="https://www.youtube.com/watch?v=fFOnvowbtYA"
+                type="video/mp4" />
+            </video>
+          </div>
           <div className="absolute w-full bottom-0 inset-x-0 text-white text-xs text-center leading-4">
             <div className="pb-24 mb-4 flex items-center justify-center">
               <div className="">
@@ -76,7 +76,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* ROCKET PIC */}
         <div className="flex flex-col items-center">
           {/* TITLE */}
           <h1 className="font-extralight underline decoration-indigo-500 underline-offset-8 decoration-4 text-white text-4xl pt-10 flex flex-row justify-evenly items-center">
@@ -109,7 +108,7 @@ export default function Home() {
               <Attribute first="Max Speed" second="200 m/s" />
               <Attribute first="Cooling system" second="PVC Ablative" />
             </div>
-          </div> 
+          </div>
         </div>
 
         <div className='flex flex-row items-center pt-12 pb-12'>
@@ -195,7 +194,7 @@ export default function Home() {
         <div className="font-thin bg-slate-900 text-center flex-col items-center justify center">
 
           <h1 className="underline underline-offset-8 decoration-1 text-center text-white text-lg pt-12 pb-12">
-          Project Caelus | Copyright © 2018-2022. All rights reserved.
+            Project Caelus | Copyright © 2018-2022. All rights reserved.
           </h1>
         </div>
 
