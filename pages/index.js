@@ -1,6 +1,7 @@
 import Image from "next/image"
 import cat2 from "../public/images/lll.jpg"
 import ca from "../public/images/Screen Shot 2022-05-22 at 1.19.37 PM.png"
+import Link from 'next/link'
 
 import cat23 from "../public/images/d16.png"
 import cat233 from "../public/images/tr.png"
@@ -35,14 +36,22 @@ import TimelineItem from "../components/timelineItem"
 
 export default function Home() {
   return (
+    
     <div>
       <div className="bg-black">
-
+ 
         <div className="relative overflow-hidden">
           <div className="object-scale-down h-screen">
-            <Image className=""
-              src={cat23}
-            /></div>
+          <video
+        autoPlay
+        //loop
+        //muted
+        className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
+      >
+        <source       src="https://www.youtube.com/watch?v=fFOnvowbtYA"
+ type="video/mp4" />
+      </video>
+            </div>
           <div className="absolute w-full bottom-0 inset-x-0 text-white text-xs text-center leading-4">
             <div className="pb-24 mb-4 flex items-center justify-center">
               <div className="">
