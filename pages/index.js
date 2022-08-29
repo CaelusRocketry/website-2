@@ -76,6 +76,37 @@ export default function Home() {
           </div>
         </div>
 
+        <div className='flex flex-row items-center pt-6 pb-12'>
+          <div className="flex flex-col items-center">
+            <Description title='Project Caelus' subtitle='Mission'>
+              The mission at Project Caelus is to design, build, test, and
+              launch a bipropellant liquid-fueled rocket to the edge of space while also
+              creating opportunities that introduce young kids to the ever-growing aerospace industry and teaching the community about the importance
+              of STEM education in an increasingly technological world. Through our project, we hope to show young people that it’s possible to do
+              something that has never been done before and that there is no age threshold to exploring science and pushing technological boundaries.
+            </Description>
+
+            <Description title='The Rocket' subtitle='Callisto I'>
+              The Callisto I launch vehicle will utilize an improved version of our custom-made engine, designed entirely from scratch: Aphlex 1C. The launch of Callisto I
+              will be the first-ever liquid-fueled rocket launch by a high school team and among the first of all amateur groups in the world.
+              The current target apogee for this inaugural rocket is 2,500 feet, and it will be a fundamental milestone in our quest for space.
+            </Description>
+          </div>
+
+          <div className='p-10'>
+            <h1 className="uppercase tracking-wide text-center text-xl mb-5 text-indigo-500 font-extralight semibold">Open Source -
+              <span className="inline text-lg leading-tight font-extralight semibold text-red-400"> Check out our research paper!</span>
+            </h1>
+            <iframe
+              frameBorder="0"
+              scrolling="no"
+              width="600"
+              height="650"
+              src="https://drive.google.com/file/d/1BcAm3sYxLWUuVY77Sl3LaBaUpoqlH6Yi/preview"
+            />
+          </div>
+        </div>
+
         <div className="flex flex-col items-center">
           {/* TITLE */}
           <h1 className="font-extralight underline decoration-indigo-500 underline-offset-8 decoration-4 text-white text-4xl pt-10 flex flex-row justify-evenly items-center">
@@ -111,39 +142,10 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='flex flex-row items-center pt-12 pb-12'>
-          <div className="flex flex-col items-center">
-            <Description title='Project Caelus' subtitle='Mission'>
-              The mission at Project Caelus is to design, build, test, and
-              launch a bipropellant liquid-fueled rocket to the edge of space while also
-              creating opportunities that introduce young kids to the ever-growing aerospace industry and teaching the community about the importance
-              of STEM education in an increasingly technological world. Through our project, we hope to show young people that it’s possible to do
-              something that has never been done before and that there is no age threshold to exploring science and pushing technological boundaries.
-            </Description>
 
-            <Description title='The Rocket' subtitle='Callisto I'>
-              The Callisto I launch vehicle will utilize an improved version of the Aphlex 1C engine. The launch of Callisto I
-              will be the first-ever liquid-fueled rocket launch by a high school team and among the first of all amateur groups in the world.
-              The current target apogee for this inaugural rocket is 2,500 feet, and it will be a fundamental milestone in our quest for space.
-            </Description>
-          </div>
-
-          <div className='p-10'>
-            <h1 className="uppercase tracking-wide text-center text-xl mb-5 text-indigo-500 font-extralight semibold">Open Source -
-              <span className="inline text-lg leading-tight font-extralight semibold text-red-400"> Check out our research paper!</span>
-            </h1>
-            <iframe
-              frameBorder="0"
-              scrolling="no"
-              width="600"
-              height="650"
-              src="https://drive.google.com/file/d/1BcAm3sYxLWUuVY77Sl3LaBaUpoqlH6Yi/preview"
-            />
-          </div>
-        </div>
 
         {/* TITLE */}
-        <div className="pb-12 text-center">
+        <div className="pt-12 pb-12 text-center">
           <h1 className="font-extralight underline decoration-indigo-500 underline-offset-8 decoration-4 semibold text-6xl text-white">Timeline</h1>
         </div>
 
