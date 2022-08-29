@@ -133,7 +133,7 @@ export default function Home() {
               <span className="inline text-lg leading-tight font-extralight semibold text-red-400"> Check out our research paper!</span>
             </h1>
             <iframe
-              frameborder="0"
+              frameBorder="0"
               scrolling="no"
               width="600"
               height="650"
