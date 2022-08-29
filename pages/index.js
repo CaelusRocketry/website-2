@@ -1,6 +1,6 @@
 import Image from "next/image"
 import cat2 from "../public/images/lll.jpg"
-import ca from "../public/images/Screen Shot 2022-05-22 at 1.19.37 PM.png"
+import ca from "../public/images/s.png"
 import Link from 'next/link'
 
 import cat23 from "../public/images/d16.png"
