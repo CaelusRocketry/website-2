@@ -42,6 +42,7 @@ export default function Home() {
 
         <div className="relative overflow-hidden">
           <div className="object-scale-down h-screen">
+<<<<<<< Updated upstream
             <video
               autoPlay
               //loop
@@ -52,6 +53,18 @@ export default function Home() {
                 type="video/mp4" />
             </video>
           </div>
+=======
+          <video
+        autoPlay
+        //loop
+        muted
+        className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
+      >
+        <source       src="images/E75F364A-73A8-414F-82B1-B2FC4436024D.MOV"
+ type="video/mp4" />
+      </video>
+            </div>
+>>>>>>> Stashed changes
           <div className="absolute w-full bottom-0 inset-x-0 text-white text-xs text-center leading-4">
             <div className="pb-24 mb-4 flex items-center justify-center">
               <div className="">

@@ -141,15 +141,13 @@ export default function subteams() {
                   <div className="flex flex-row">
                     <div className="">
 
-                      <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
-                      <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
-
+                      
                     </div>
 
 
 
                   </div>
-                  <div className="flex items-center justify-center pt-8">
+                  <div className="flex items-center justify-center pt-20">
                     <Image className="" src={cat1} alt="">
                     </Image>
                     <Image className="" src={cat3} alt="">
@@ -162,15 +160,13 @@ export default function subteams() {
                   <div className="flex flex-row">
                     <div className="">
 
-                      <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
-                      <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
-
+                     
                     </div>
 
 
 
                   </div>
-                  <div className="flex items-center justify-center pt-8">
+                  <div className="flex items-center justify-center pt-20">
                     <Image className="" src={cat9} alt="">
                     </Image>
                     <Image className="" src={cat90} alt="">
@@ -183,15 +179,13 @@ export default function subteams() {
                   <div className="flex flex-row">
                     <div className="">
 
-                      <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
-                      <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
-
+                     
                     </div>
 
 
 
                   </div>
-                  <div className="flex items-center justify-center pt-8">
+                  <div className="flex items-center justify-center pt-20">
                     <div className="w-1/2 h-1/2">
                       <Image className="" src={cat900} alt="">
                       </Image>
@@ -210,15 +204,12 @@ export default function subteams() {
                   <div className="flex flex-row">
                     <div className="">
 
-                      <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
-                      <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
-
                     </div>
 
 
 
                   </div>
-                  <div className="flex items-center justify-center pt-8">
+                  <div className="flex items-center justify-center pt-20">
                     <div className="w-1/2">
                       <Image className="" src={cat4} alt="">
                       </Image>
@@ -235,15 +226,12 @@ export default function subteams() {
                   <div className="flex flex-row">
                     <div className="">
 
-                      <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
-                      <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
-
                     </div>
 
 
 
                   </div>
-                  <div className="flex items-center justify-center pt-8">
+                  <div className="flex items-center justify-center pt-20">
                     <div className="p-8">
                       <a href="https://docs.google.com/document/d/1gCBBjTNtp-1y6pgiAZXzNUuuphlio33a4ynD4KjzjI4/edit" className="block mt-1 text-3xl pb-16 leading-tight font-extralight semibold text-red-400 hover:underline">Full Cold Flow</a>
                       <a href="https://docs.google.com/document/d/14GF5MH0N8Yn4MlxrpHHRUVzbeaHv8t03B6nIXnOz9cA/edit" className="block mt-1 text-3xl pb-16 leading-tight font-extralight semibold text-red-400 hover:underline">Ethanol Cold Flow</a>
@@ -261,15 +249,13 @@ export default function subteams() {
                   <div className="flex flex-row">
                     <div className="">
 
-                      <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
-                      <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
-
+                     
                     </div>
 
 
 
                   </div>
-                  <div className="flex items-center justify-center pt-8">
+                  <div className="flex items-center justify-center pt-20">
                     <Image className="" src={et1} alt="">
                     </Image>
                     <Image className="" src={et2} alt="">
@@ -294,15 +280,13 @@ export default function subteams() {
                   <div className="flex flex-row">
                     <div className="">
 
-                      <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
-                      <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
-
+                    
                     </div>
 
 
 
                   </div>
-                  <div className="flex items-center justify-center pt-8">
+                  <div className="flex items-center justify-center pt-20">
                     <Image className="" src={cat7} alt="">
                     </Image>
                     <Image className="" src={cat5} alt="">
@@ -323,15 +307,13 @@ export default function subteams() {
                   <div className="flex flex-row">
                     <div className="">
 
-                      <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
-                      <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
-
+                     
                     </div>
 
 
 
                   </div>
-                  <div className="flex items-center justify-center pt-8">
+                  <div className="flex items-center justify-center pt-20">
                     <Image className="" src={cat300} alt="">
                     </Image>
                     <Image className="" src={cat3000} alt="">
@@ -344,15 +326,12 @@ export default function subteams() {
                   <div className="flex flex-row">
                     <div className="">
 
-                      <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
-                      <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
-
                     </div>
 
 
 
                   </div>
-                  <div className="flex items-center justify-center pt-8">
+                  <div className="flex items-center justify-center pt-20">
                     <div className="w-1/2 h-1/2">
                       <Image className="" src={cat9000} alt="">
                       </Image>
@@ -367,19 +346,17 @@ export default function subteams() {
                 </div>
 
                 <div className="bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
-                  <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">Social Media</div>
+                  <div className="pt-10 pb-15 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">Social Media</div>
                   <div className="flex flex-row">
                     <div className="">
 
-                      <div className="flex items-center justify-center pt-6 tracking-wide text-2xl text-indigo-500 font-extralight semibold">Description</div>
-                      <div className="flex items-center justify-center pl-6 pr-6 pt-6 tracking-wide text-xl text-white font-extralight semibold">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</div>
 
                     </div>
 
 
 
                   </div>
-                  <div className="flex items-center justify-center pt-8">
+                  <div className="flex items-center justify-center pt-20">
                     <div className="w-1/3">
                       <Image className="" src={lll} alt="">
                       </Image>
