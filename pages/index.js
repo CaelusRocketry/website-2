@@ -48,7 +48,7 @@ export default function Home() {
               //muted
               className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
             >
-              <source src="images/"
+              <source src="images/E75F364A-73A8-414F-82B1-B2FC4436024D.MOV"
                 type="video/mp4" />
             </video>
           </div>
