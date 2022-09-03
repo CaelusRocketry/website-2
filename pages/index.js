@@ -52,28 +52,6 @@ export default function Home() {
                 type="video/mp4" />
             </video>
           </div>
-          <div className="absolute w-full bottom-0 inset-x-0 text-white text-xs text-center leading-4">
-            <div className="pb-24 mb-4 flex items-center justify-center">
-              <div className="">
-                <h1 className=" text-white text-8xl flex flex-row justify-evenly items-center">
-                  PROJECT
-                </h1>
-                <h1 className="mb-8 text-white text-8xl flex flex-row justify-evenly items-center">
-                  CAELUS
-                </h1>
-
-                <h1 className="z-20 text-white text-2xl flex flex-row justify-evenly items-center">
-                  The first high-school team in the world to take a liquid-fueled rocket to space.
-                </h1>
-                <div className="animate-bounce mt-12 ml-96 mr-96 flex items-center justify-center h-24 w-24">
-                  <Image className=""
-                    src={cat233}
-                  />
-                </div>
-              </div>
-
-            </div>
-          </div>
         </div>
 
         <div className='flex flex-row items-center pt-6 pb-12'>
