@@ -39,20 +39,16 @@ export default function Home() {
 
     <div>
       <div className="bg-black">
-
-        <div className="relative overflow-hidden">
-          <div className="object-scale-down h-screen">
-            <video
-              autoPlay
-              //loop
-              muted
-              className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
-            >
-              <source src="images/E75F364A-73A8-414F-82B1-B2FC4436024D.MOV"
-                type="video/mp4" />
-            </video>
-          </div>
-        </div>
+        {/* CAELUS TRAILER */}
+        <video
+          autoPlay
+          loop
+          muted
+          className="w-auto min-w-full min-h-full max-w-none"
+        >
+          <source src="images/E75F364A-73A8-414F-82B1-B2FC4436024D.MOV"
+            type="video/mp4" />
+        </video>
 
         <div className='flex flex-row items-center pt-6 pb-12'>
           <div className="flex flex-col items-center">
