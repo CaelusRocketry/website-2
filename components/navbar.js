@@ -102,7 +102,7 @@ export default function Navbar() {
     return (
         <nav className="flex filter drop-shadow-md bg-black px-4 py-4 h-20 items-center">
             <MobileNav open={open} setOpen={setOpen} />
-            <div className="hide-small font-extralight pl-8 w-/12 flex items-center">
+            <div className="font-extralight pl-8 w-/12 flex items-center">
                 <div className=" h-16 w-24 relative">
                     <Image
                         src={cat1}
