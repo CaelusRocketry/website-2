@@ -117,5 +117,6 @@
 @media (max-width: 600px) {
     .hide-small {
         color: red;
+        padding: 500px;
     }
 }
