@@ -134,7 +134,7 @@ export default function Home() {
                         </div>
 
                         {/* RIGHT ATTRIBUTES */}
-                        <div className="pr-24">
+                        <div className="pr-24 bottom-stuff">
                             <Attribute
                                 first="Recovery system"
                                 second="Parachute"
