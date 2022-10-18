@@ -109,7 +109,7 @@ export default function Navbar() {
                         layout="fill" // required
                     ></Image>
                 </div>
-                <div className=" pl-8 text-white">
+                <div className="class1 pl-8 text-white">
                     <NavLink to="/">HOME</NavLink>
                 </div>
 
