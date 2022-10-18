@@ -39,8 +39,11 @@ a {
 @media (max-width: 767.999999px) {
     .stats {
         flex-direction: column;
-        padding-left: 2rem;
+        padding-left: 0;
         padding-right: 0;
+    }
+    .top-stuff {
+        padding-left: 2rem;
     }
     .rocket-img {
         display: none;

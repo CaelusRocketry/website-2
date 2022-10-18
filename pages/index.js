@@ -107,7 +107,7 @@ export default function Home() {
 
                     <div className="font-thin flex flex-row items-center pt-6 stats">
                         {/* LEFT ATTRIBUTES */}
-                        <div className="pl-24">
+                        <div className="pl-24 top-stuff">
                             <Attribute first="Engine" second="Aphlex 1C" />
                             <Attribute
                                 first="Specific Impulse"
