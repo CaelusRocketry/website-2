@@ -46,8 +46,14 @@ a {
     order: 1;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1140px) {
     .research-pdf {
+        display: none;
+    }
+}
+
+@media (max-width: 1080px) {
+    .timeline-images {
         display: none;
     }
 }
