@@ -19,6 +19,12 @@ a {
     box-sizing: border-box;
 }
 
+/* Responsiveness edits */
 .class1 {
     color: red;
+}
+@media (max-width: 767.999999px) {
+    .hideme {
+        display: none;
+    }
 }

@@ -109,23 +109,23 @@ export default function Navbar() {
                         layout="fill" // required
                     ></Image>
                 </div>
-                <div className="class1 pl-8 text-white">
+                <div className="hideme pl-8 text-white">
                     <NavLink to="/">HOME</NavLink>
                 </div>
 
-                <div className=" pl-8 text-white">
+                <div className="hideme pl-8 text-white">
                     <NavLink to="/About">ABOUT</NavLink>
                 </div>
 
-                <div className=" pl-8 text-white">
+                <div className="hideme pl-8 text-white">
                     <NavLink to="/projects">PROJECTS</NavLink>
                 </div>
 
-                <div className=" pl-8 text-white">
+                <div className="hideme pl-8 text-white">
                     <NavLink to="/subteams">SUBTEAMS</NavLink>
                 </div>
 
-                <div className=" pl-8 text-white">
+                <div className="hideme pl-8 text-white">
                     <NavLink to="/blog">BLOG</NavLink>
                 </div>
             </div>
@@ -153,7 +153,7 @@ export default function Navbar() {
                         }`}
                     />
                 </div>
-                <div className="font-extralight pr-16 text-white">
+                <div className="hideme font-extralight pr-16 text-white">
                     <NavLink to="/donate">DONATE</NavLink>
                 </div>
             </div>
