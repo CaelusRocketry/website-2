@@ -34,3 +34,10 @@ a {
     min-width: 100%;
     height: auto;
 }
+
+/* make stats not explode*/
+@media (max-width: 767.999999px) {
+    .stats {
+        flex-direction: column;
+    }
+}
