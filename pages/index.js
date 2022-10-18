@@ -166,7 +166,6 @@ export default function Home() {
                             title="Project Caelus Formed"
                             subtitle="November 26, 2018"
                             image={f}
-                            className="timeline-images"
                         >
                             The initial Project Caelus team was created after a
                             long round of interviews. We started as a team full
@@ -180,7 +179,6 @@ export default function Home() {
                             title="Aphlex 1B - Ethanol Water Cold Flow"
                             subtitle="September 13th, 2020"
                             image={g}
-                            className="timeline-images"
                         >
                             After years of designs and numerous times back at
                             the drawing board learning the ropes of liquid
@@ -197,7 +195,6 @@ export default function Home() {
                             title="AIAA YPSE Conference 2020"
                             subtitle="October 16, 2020"
                             image={h}
-                            className="timeline-images"
                         >
                             The Caelus team presented our design for the Aphlex
                             1B engine at the AIAA Young Professionals, Students,
@@ -210,7 +207,6 @@ export default function Home() {
                             title="Aphlex 1B - Nitrous Oxide Water Cold Flow"
                             subtitle="February 27, 2021"
                             image={hh}
-                            className="timeline-images"
                         >
                             The second essential test conducted by Project
                             Caelus, the nitrous water cold flow test further
@@ -225,7 +221,6 @@ export default function Home() {
                             title="Aphlex 1C - Engine Redesign"
                             subtitle="March 13, 2021"
                             image={i}
-                            className="timeline-images"
                         >
                             With the team&apos;s growing experience and grasp of
                             rocket science, we tackled an engine redesign to
@@ -240,7 +235,6 @@ export default function Home() {
                             title="Aphlex 1C - Ethanol Water Cold Flow"
                             subtitle="January 23, 2022"
                             image={j}
-                            className="timeline-images"
                         >
                             Following a complete overhaul of the electronics and
                             programming systems for the Aphlex 1C test stand, we
@@ -252,7 +246,6 @@ export default function Home() {
                             title="Aphlex 1C — Nitrous Oxide Water Cold Flow"
                             subtitle="April 2, 2022"
                             image={jj}
-                            className="timeline-images"
                         >
                             This test ensured that the test stand can hold and
                             maintain pressure for propellants, gain accurate
@@ -265,7 +258,6 @@ export default function Home() {
                             title="Aphlex 1C - Full Water Cold Flow - Full Assembly"
                             subtitle="April 3, 2022"
                             image={ii}
-                            className="timeline-images"
                         >
                             The full water cold flow unifies the testing of the
                             ethanol and nitrous towers by simulating the
@@ -280,7 +272,6 @@ export default function Home() {
                             title="Aphlex 1C – Nitrous Oxide Cold Flow"
                             subtitle="August, 2022"
                             image={jkl}
-                            className="timeline-images"
                         >
                             The nitrous oxide cold flow test is a major
                             milestone as it&apos;s the first time that actual
@@ -295,7 +286,6 @@ export default function Home() {
                             title="Aphlex 1C - Static Engine Fire"
                             subtitle="August, 2022"
                             image={k}
-                            className="timeline-images"
                         >
                             The culmination of all of our years of hard work up
                             until this point - this static engine fire will be
@@ -312,7 +302,6 @@ export default function Home() {
                             title="Callisto I"
                             subtitle="June, 2023"
                             image={l}
-                            className="timeline-images"
                         >
                             The Callisto I launch vehicle will utilize an
                             improved version of the Aphlex 1C engine. The launch
@@ -327,7 +316,6 @@ export default function Home() {
                             title="Callisto II"
                             subtitle="2024"
                             image={m}
-                            className="timeline-images"
                         >
                             Beyond Callisto I, based on collected data and
                             research findings, the Project Caelus team will
@@ -342,7 +330,6 @@ export default function Home() {
                             title="Callisto III"
                             subtitle="2025"
                             image={cal333}
-                            className="timeline-images"
                         >
                             The Callisto III rocket is the current final goal of
                             our project and will reach the Karman line, the
