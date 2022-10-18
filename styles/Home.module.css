@@ -116,6 +116,9 @@
 }
 .vp-flex {
     flex-direction: row;
+    gap: 4vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
     justify-content: space-evenly;
 }
 .vp-bio {
