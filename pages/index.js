@@ -44,7 +44,7 @@ export default function Home() {
           autoPlay
           loop
           muted
-          className="w-auto min-w-full min-h-full max-w-none"
+          className="mainvideo w-auto min-w-full min-h-full max-w-none"
         >
           <source src="images/E75F364A-73A8-414F-82B1-B2FC4436024D.MOV"
             type="video/mp4" />
