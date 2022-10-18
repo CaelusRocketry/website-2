@@ -3,17 +3,22 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
-  padding: 0;
-  margin: 0;
+html,
+body {
+    padding: 0;
+    margin: 0;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 * {
-  font-family: 'Karla';
-  box-sizing: border-box;
+    font-family: "Karla";
+    box-sizing: border-box;
+}
+
+.class1 {
+    color: red;
 }
