@@ -45,3 +45,9 @@ a {
 .rocket-pulse {
     order: 1;
 }
+
+@media (max-width: 1080px) {
+    .research-pdf {
+        display: none;
+    }
+}

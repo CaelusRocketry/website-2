@@ -81,7 +81,7 @@ export default function Home() {
                         </Description>
                     </div>
 
-                    <div className="p-10">
+                    <div className="p-10 research-pdf">
                         <h1 className="uppercase tracking-wide text-center text-xl mb-5 text-indigo-500 font-extralight semibold">
                             Open Source -
                             <span className="inline text-lg leading-tight font-extralight semibold text-red-400">
