@@ -31,7 +31,7 @@ export default function about() {
                 </div>
 
                 <div className="flex flex-row h-7/8 bg-gradient-to-r from-slate-900 to-black aditya">
-                    <div className="w-1/2">
+                    <div className="adi-desc">
                         <div className="flex flex-items-center justify-center pt-12 pb-8 underline decoration-indigo-500 underline-offset-8 decoration-4 uppercase tracking-wide text-2xl text-white font-extralight semibold">
                             President/CEO
                         </div>
@@ -71,7 +71,7 @@ export default function about() {
                         </div>
                     </div>
 
-                    <div className=" w-1/2">
+                    <div className="adi-pic">
                         <Image src={cat44}></Image>
                     </div>
                 </div>

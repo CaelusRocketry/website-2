@@ -71,8 +71,15 @@ a {
         flex-direction: column-reverse;
     }
 }
+
 @media (max-width: 960px) {
     .aditya {
         flex-direction: column-reverse;
+    }
+}
+@media (min-width: 960.0001px) {
+    .adi-pic,
+    .adi-desc {
+        flex-basis: 50vw;
     }
 }
