@@ -41,3 +41,7 @@ a {
         flex-direction: column;
     }
 }
+
+.rocket-pulse {
+    order: 1;
+}
