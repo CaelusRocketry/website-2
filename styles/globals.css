@@ -44,11 +44,11 @@ a {
     }
 
     .top-stuff {
-        padding-left: 0;
+        padding-left: 2rem;
         padding-right: 0;
     }
     .bottom-stuff {
-        padding-left: 2rem;
+        padding-left: 0;
         padding-right: 0;
     }
     .rocket-img {
@@ -68,6 +68,11 @@ a {
 
 @media (max-width: 1080px) {
     .timeline-images {
-        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width: 960px) {
+    .aditya {
+        flex-direction: column-reverse;
     }
 }

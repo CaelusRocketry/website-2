@@ -19,11 +19,11 @@ const TimelineItem = (props) => {
                 </svg>
             </span>
 
-            <div className="flex flex-row">
+            <div className="flex flex-row timeline-images">
                 <Description title={props.title} subtitle={props.subtitle}>
                     {props.children}
                 </Description>
-                <div className="timeline-images">
+                <div className="">
                     <Image src={props.image} alt="" />
                 </div>
             </div>
