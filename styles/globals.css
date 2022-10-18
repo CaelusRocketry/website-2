@@ -39,6 +39,8 @@ a {
 @media (max-width: 767.999999px) {
     .stats {
         flex-direction: column;
+        padding-left: 2rem;
+        padding-right: 0;
     }
     .rocket-img {
         display: none;
