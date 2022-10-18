@@ -114,3 +114,11 @@
         flex-direction: column;
     }
 }
+.vp-flex {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.vp-bio {
+    width: 30vw;
+    height: 30vw;
+}

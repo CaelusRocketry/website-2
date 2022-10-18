@@ -76,6 +76,10 @@ a {
     .aditya {
         flex-direction: column-reverse;
     }
+    .adi-pic {
+        width: 50vw;
+        height: 50vw;
+    }
 }
 @media (min-width: 960.0001px) {
     .adi-pic,

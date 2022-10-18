@@ -75,9 +75,8 @@ export default function about() {
                         <Image src={cat44}></Image>
                     </div>
                 </div>
-
-                <div className="pr-48 pl-48 pt-12 flex flex-row">
-                    <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-3 pr-3">
+                <div className="pt-12 flex flex-row vp-flex">
+                    <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 vp-bio">
                         <div className=" rounded-3xl bg-black">
                             <div className="md:flex">
                                 <div className="rounded-3xl shadow-2xl">
@@ -103,7 +102,7 @@ export default function about() {
                         </div>
                     </div>
 
-                    <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-3 pr-3">
+                    <div className="transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 vp-bio">
                         <div className=" rounded-3xl bg-black">
                             <div className="md:flex">
                                 <div className="rounded-3xl shadow-2xl">
