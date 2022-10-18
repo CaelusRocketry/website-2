@@ -126,7 +126,7 @@ export default function Home() {
                         </div>
 
                         {/* ROCKET IMAGE */}
-                        <div className="animate-pulse">
+                        <div className="animate-pulse rocket-img">
                             <Image
                                 className="rocket-pulse h-screen w-screen animate-pulse"
                                 src={ca}
