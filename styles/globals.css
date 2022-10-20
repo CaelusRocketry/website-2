@@ -90,7 +90,16 @@ a {
 }
 
 .vp-flex {
+    display: flex;
     flex-direction: row;
     gap: 20vw;
     justify-content: space-evenly;
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+
+.people-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1vw 0.5vw;
 }

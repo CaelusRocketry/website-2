@@ -398,7 +398,7 @@ export default function about() {
                 </div>
 
                 <div className="h-3/4 bg-slate-900">
-                    <div className="flex flex-row">
+                    <div className="people-grid">
                         <div className="rounded-3xl pr-1 pl-1 pb-2 pt-2">
                             <Image
                                 className="rounded-t-2xl"
@@ -478,9 +478,6 @@ export default function about() {
                                 alt=""
                             ></Image>
                         </div>
-                    </div>
-
-                    <div className="flex flex-row">
                         <div className="pr-1 pl-1 pb-2">
                             <Image
                                 className="rounded-t-2xl"
@@ -560,9 +557,6 @@ export default function about() {
                                 alt=""
                             ></Image>
                         </div>
-                    </div>
-
-                    <div className="flex flex-row">
                         <div className="pr-1 pl-1 pb-2">
                             <Image
                                 className="rounded-t-2xl"
@@ -642,9 +636,6 @@ export default function about() {
                                 alt=""
                             ></Image>
                         </div>
-                    </div>
-
-                    <div className="flex flex-row">
                         <div className="pr-1 pl-1 pb-2">
                             <Image
                                 className="rounded-t-2xl"
