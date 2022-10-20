@@ -73,10 +73,12 @@ a {
 @media (max-width: 960px) {
     .aditya {
         flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
     .adi-pic {
         width: 50vw;
-        padding-left: 25vw;
+
         height: 50vw;
     }
 }
@@ -85,4 +87,10 @@ a {
     .adi-desc {
         flex-basis: 50vw;
     }
+}
+
+.vp-flex {
+    flex-direction: row;
+    gap: 20vw;
+    justify-content: space-evenly;
 }
