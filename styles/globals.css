@@ -20,9 +20,7 @@ a {
 }
 
 /* Responsiveness edits */
-.class1 {
-    color: red;
-}
+
 @media (max-width: 767.999999px) {
     .hideme {
         display: none;
@@ -36,7 +34,7 @@ a {
 }
 
 /* make stats not explode*/
-@media (max-width: 767.999999px) {
+@media (max-width: 870px) {
     .stats {
         flex-direction: column;
         padding-left: 0;
@@ -78,6 +76,7 @@ a {
     }
     .adi-pic {
         width: 50vw;
+        padding-left: 25vw;
         height: 50vw;
     }
 }
