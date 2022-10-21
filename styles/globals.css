@@ -118,5 +118,6 @@ a {
     .projects-flex1 {
         flex-direction: column;
         gap: 40px;
+        padding: 10vw;
     }
 }

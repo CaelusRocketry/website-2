@@ -39,7 +39,7 @@ export default function projects() {
                             </div>
                         </div>
                         <div className="pt-12 flex flex-row projects-flex1">
-                            <div className="transition ease-in-out pl-6 pr-3">
+                            <div className="transition ease-in-out ">
                                 <div className=" rounded-3xl  bg-black">
                                     <div className="md:flex">
                                         <div className="rounded-3xl shadow-2xl">
@@ -65,7 +65,7 @@ export default function projects() {
                                 </div>
                             </div>
 
-                            <div className="transition ease-in-out pl-3 pr-3">
+                            <div className="transition ease-in-out">
                                 <div className=" rounded-3xl bg-black">
                                     <div className="md:flex">
                                         <div className="rounded-3xl shadow-2xl">
@@ -91,7 +91,7 @@ export default function projects() {
                                 </div>
                             </div>
 
-                            <div className="transition ease-in-out pl-3 pr-6">
+                            <div className="transition ease-in-out">
                                 <div className=" rounded-3xl bg-black">
                                     <div className="md:flex">
                                         <div className="rounded-3xl shadow-2xl">
@@ -126,7 +126,7 @@ export default function projects() {
                             </div>
                         </div>
                         <div className="pt-12 flex flex-row projects-flex1">
-                            <div className="transition ease-in-out pl-48 pr-3">
+                            <div className="transition ease-in-out">
                                 <div className=" rounded-3xl  bg-black">
                                     <div className="md:flex">
                                         <div className="rounded-3xl shadow-2xl">
@@ -152,7 +152,7 @@ export default function projects() {
                                 </div>
                             </div>
 
-                            <div className="transition ease-in-out pl-3 pr-48">
+                            <div className="transition ease-in-out">
                                 <div className=" rounded-3xl bg-black">
                                     <div className="md:flex">
                                         <div className="rounded-3xl shadow-2xl">
@@ -187,7 +187,7 @@ export default function projects() {
                             </div>
                         </div>
                         <div className="pt-12 flex flex-row projects-flex1">
-                            <div className="transition ease-in-out pl-6 pr-3 pb-12">
+                            <div className="transition ease-in-out pb-12">
                                 <div className=" rounded-3xl  bg-black">
                                     <div className="md:flex">
                                         <div className="rounded-3xl shadow-2xl">
@@ -213,7 +213,7 @@ export default function projects() {
                                 </div>
                             </div>
 
-                            <div className="transition ease-in-out pl-3 pr-3 pb-12">
+                            <div className="transition ease-in-out pb-12">
                                 <div className=" rounded-3xl bg-black">
                                     <div className="md:flex">
                                         <div className="rounded-3xl shadow-2xl">
@@ -239,7 +239,7 @@ export default function projects() {
                                 </div>
                             </div>
 
-                            <div className="transition ease-in-out pl-3 pr-6 pb-12">
+                            <div className="transition ease-in-out pb-12">
                                 <div className=" rounded-3xl bg-black">
                                     <div className="md:flex">
                                         <div className="rounded-3xl shadow-2xl">
