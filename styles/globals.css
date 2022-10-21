@@ -117,7 +117,21 @@ a {
 @media (max-width: 720px) {
     .projects-flex1 {
         flex-direction: column;
-        gap: 40px;
         padding: 10vw;
+    }
+}
+.projects-flex1 {
+    gap: 10vw;
+}
+.technical-side {
+    padding-left: 18rem;
+}
+@media (max-width: 1040px) {
+    .technical-side {
+        padding-left: 0;
+    }
+    .subteam-list {
+        flex-direction: column-reverse;
+        padding-left: 0;
     }
 }
