@@ -129,8 +129,8 @@ export default function about() {
                     </div>
                 </div>
 
-                <div className="pt-12 flex flex-row">
-                    <div className="transition ease-in-out pl-6 pr-3">
+                <div className="pt-12 sublead-grid">
+                    <div className="transition ease-in-out">
                         <div className=" rounded-3xl  bg-black">
                             <div className="md:flex">
                                 <div className="rounded-3xl shadow-2xl">
@@ -156,7 +156,7 @@ export default function about() {
                         </div>
                     </div>
 
-                    <div className="transition ease-in-out pl-3 pr-3">
+                    <div className="transition ease-in-out">
                         <div className=" rounded-3xl bg-black">
                             <div className="md:flex">
                                 <div className="rounded-3xl shadow-2xl">
@@ -182,7 +182,7 @@ export default function about() {
                         </div>
                     </div>
 
-                    <div className="transition ease-in-out pl-3 pr-6">
+                    <div className="transition ease-in-out">
                         <div className=" rounded-3xl bg-black">
                             <div className="md:flex">
                                 <div className="rounded-3xl shadow-2xl">
@@ -208,7 +208,7 @@ export default function about() {
                         </div>
                     </div>
 
-                    <div className="transition ease-in-out pl-6 pr-3">
+                    <div className="transition ease-in-out">
                         <div className=" rounded-3xl  bg-black">
                             <div className="md:flex">
                                 <div className="rounded-3xl shadow-2xl">
@@ -234,7 +234,7 @@ export default function about() {
                         </div>
                     </div>
 
-                    <div className="transition ease-in-out pl-3 pr-3">
+                    <div className="transition ease-in-out">
                         <div className=" rounded-3xl bg-black">
                             <div className="md:flex">
                                 <div className="rounded-3xl shadow-2xl">
@@ -259,10 +259,8 @@ export default function about() {
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div className="pt-12 flex flex-row">
-                    <div className="transition ease-in-out pl-3 pr-6">
+                    <div className="transition ease-in-out">
                         <div className=" rounded-3xl bg-black">
                             <div className="md:flex">
                                 <div className="rounded-3xl shadow-2xl">
@@ -288,7 +286,7 @@ export default function about() {
                         </div>
                     </div>
 
-                    <div className="transition ease-in-out pl-3 pr-6">
+                    <div className="transition ease-in-out">
                         <div className=" rounded-3xl bg-black">
                             <div className="md:flex">
                                 <div className="rounded-3xl shadow-2xl">
@@ -314,7 +312,7 @@ export default function about() {
                         </div>
                     </div>
 
-                    <div className="transition ease-in-out pl-3 pr-6">
+                    <div className="transition ease-in-out">
                         <div className=" rounded-3xl bg-black">
                             <div className="md:flex">
                                 <div className="rounded-3xl shadow-2xl">
@@ -340,7 +338,7 @@ export default function about() {
                         </div>
                     </div>
 
-                    <div className="transition ease-in-out pl-3 pr-6">
+                    <div className="transition ease-in-out">
                         <div className=" rounded-3xl bg-black">
                             <div className="md:flex">
                                 <div className="rounded-3xl shadow-2xl">
@@ -366,7 +364,7 @@ export default function about() {
                         </div>
                     </div>
 
-                    <div className="transition ease-in-out pl-3 pr-6">
+                    <div className="transition ease-in-out">
                         <div className=" rounded-3xl bg-black">
                             <div className="md:flex">
                                 <div className="rounded-3xl shadow-2xl">
@@ -399,7 +397,7 @@ export default function about() {
 
                 <div className="h-3/4 bg-slate-900">
                     <div className="people-grid">
-                        <div className="rounded-3xl pr-1 pl-1 pb-2 pt-2">
+                        <div className="rounded-3xl pr-1 pl-1 pb-2">
                             <Image
                                 className="rounded-t-2xl"
                                 src={cat4}
@@ -407,7 +405,7 @@ export default function about() {
                             ></Image>
                         </div>
 
-                        <div className="pr-1 pl-1 pb-2 pt-2">
+                        <div className="pr-1 pl-1 pb-2">
                             <Image
                                 className="rounded-t-2xl"
                                 src={cat4}
@@ -415,7 +413,7 @@ export default function about() {
                             ></Image>
                         </div>
 
-                        <div className="pr-1 pl-1 pb-2 pt-2">
+                        <div className="pr-1 pl-1 pb-2">
                             <Image
                                 className="rounded-t-2xl"
                                 src={cat4}
@@ -423,7 +421,7 @@ export default function about() {
                             ></Image>
                         </div>
 
-                        <div className="pr-1 pl-1 pb-2 pt-2">
+                        <div className="pr-1 pl-1 pb-2">
                             <Image
                                 className="rounded-t-2xl"
                                 src={cat4}
@@ -431,7 +429,7 @@ export default function about() {
                             ></Image>
                         </div>
 
-                        <div className="pr-1 pl-1 pb-2 pt-2">
+                        <div className="pr-1 pl-1 pb-2">
                             <Image
                                 className="rounded-t-2xl"
                                 src={cat4}
@@ -439,7 +437,7 @@ export default function about() {
                             ></Image>
                         </div>
 
-                        <div className="pr-1 pl-1 pb-2 pt-2">
+                        <div className="pr-1 pl-1 pb-2">
                             <Image
                                 className="rounded-t-2xl"
                                 src={cat4}
@@ -447,7 +445,7 @@ export default function about() {
                             ></Image>
                         </div>
 
-                        <div className="pr-1 pl-1 pb-2 pt-2">
+                        <div className="pr-1 pl-1 pb-2">
                             <Image
                                 className="rounded-t-2xl"
                                 src={cat4}
@@ -455,7 +453,7 @@ export default function about() {
                             ></Image>
                         </div>
 
-                        <div className="pr-1 pl-1 pb-2 pt-2">
+                        <div className="pr-1 pl-1 pb-2">
                             <Image
                                 className="rounded-t-2xl"
                                 src={cat4}
@@ -463,7 +461,7 @@ export default function about() {
                             ></Image>
                         </div>
 
-                        <div className="pr-1 pl-1 pb-2 pt-2">
+                        <div className="pr-1 pl-1 pb-2">
                             <Image
                                 className="rounded-t-2xl"
                                 src={cat4}
@@ -471,7 +469,7 @@ export default function about() {
                             ></Image>
                         </div>
 
-                        <div className="pr-1 pl-1 pb-2 pt-2">
+                        <div className="pr-1 pl-1 pb-2">
                             <Image
                                 className="rounded-t-2xl"
                                 src={cat4}
