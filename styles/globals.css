@@ -114,7 +114,7 @@ a {
     padding-right: 5vw;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 760px) {
     .projects-flex1 {
         flex-direction: column;
         padding: 10vw;
