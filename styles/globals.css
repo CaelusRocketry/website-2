@@ -137,7 +137,7 @@ a {
 }
 
 @media (max-width: 480px) {
-    .attribute-1 {
+    .attribute1 {
         font-size: 4.5vw;
     }
 }
