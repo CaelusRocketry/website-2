@@ -14,20 +14,18 @@ function NavLink({ to, children }) {
 function MobileNav({ open, setOpen }) {
     return (
         <div
-            className={`absolute top-0 left-0 h-screen w-screen bg-white transform ${
+            className={`absolute top-0 left-0 h-screen w-screen bg-black transform ${
                 open ? "-translate-x-0" : "-translate-x-full"
             } transition-transform duration-300 ease-in-out filter drop-shadow-md topmost`}
         >
             <div className="flex items-center justify-center filter drop-shadow-md bg-white h-20">
                 {" "}
                 {/*logo container*/}
-                <Link className="text-xl font-semibold" href="/">
-                    LOGO
-                </Link>
+                <Link className="text-xl font-semibold" href="/"></Link>
             </div>
             <div className="flex flex-col ml-4">
                 <Link
-                    className="text-xl font-medium my-4"
+                    className="text-xl font-medium my-4 text-white"
                     href="/home"
                     onClick={() =>
                         setTimeout(() => {
@@ -38,7 +36,7 @@ function MobileNav({ open, setOpen }) {
                     Home
                 </Link>
                 <Link
-                    className="text-xl font-normal my-4"
+                    className="text-xl font-normal my-4 text-white"
                     href="/projects"
                     onClick={() =>
                         setTimeout(() => {
@@ -49,7 +47,7 @@ function MobileNav({ open, setOpen }) {
                     Projects
                 </Link>
                 <Link
-                    className="text-xl font-normal my-4"
+                    className="text-xl font-normal my-4 text-white"
                     href="/subteams"
                     onClick={() =>
                         setTimeout(() => {
@@ -60,7 +58,7 @@ function MobileNav({ open, setOpen }) {
                     Subteams
                 </Link>
                 <Link
-                    className="text-xl font-normal my-4"
+                    className="text-xl font-normal my-4 text-white"
                     href="/Linkbout"
                     onClick={() =>
                         setTimeout(() => {
@@ -71,7 +69,7 @@ function MobileNav({ open, setOpen }) {
                     About
                 </Link>
                 <Link
-                    className="text-xl font-normal my-4"
+                    className="text-xl font-normal my-4 text-white"
                     href="/blog"
                     onClick={() =>
                         setTimeout(() => {
@@ -82,7 +80,7 @@ function MobileNav({ open, setOpen }) {
                     Blog
                 </Link>
                 <Link
-                    className="text-xl font-normal my-4"
+                    className="text-xl font-normal my-4 text-white"
                     href="/donate"
                     onClick={() =>
                         setTimeout(() => {
@@ -138,10 +136,8 @@ export default function Navbar() {
                 >
                     {/* hamburger button */}
                     <span
-                        className={` xbtn h-1 w-full  rounded-lg transform transition duration-300 ease-in-out ${
-                            open
-                                ? " rotate-45 translate-y-3.5 bg-black"
-                                : "bg-white"
+                        className={`  h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${
+                            open ? " rotate-45 translate-y-3.5" : ""
                         }`}
                     />
                     <span
@@ -150,10 +146,8 @@ export default function Navbar() {
                         }`}
                     />
                     <span
-                        className={`xbtn h-1 w-full rounded-lg transform transition duration-300 ease-in-out ${
-                            open
-                                ? " -rotate-45 -translate-y-3.5 bg-black"
-                                : "bg-white"
+                        className={` h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${
+                            open ? " -rotate-45 -translate-y-3.5" : ""
                         }`}
                     />
                 </div>
