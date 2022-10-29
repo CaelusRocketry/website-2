@@ -142,7 +142,6 @@ a {
     }
 }
 .topmost {
-    z-index: 1000;
 }
 .xbtn {
     z-index: 1010;
