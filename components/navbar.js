@@ -138,8 +138,10 @@ export default function Navbar() {
                 >
                     {/* hamburger button */}
                     <span
-                        className={` xbtn h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${
-                            open ? " rotate-45 translate-y-3.5 bg-black" : ""
+                        className={` xbtn h-1 w-full  rounded-lg transform transition duration-300 ease-in-out ${
+                            open
+                                ? " rotate-45 translate-y-3.5 bg-black"
+                                : "bg-white"
                         }`}
                     />
                     <span
@@ -148,8 +150,10 @@ export default function Navbar() {
                         }`}
                     />
                     <span
-                        className={`xbtn h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${
-                            open ? " -rotate-45 -translate-y-3.5 bg-black" : ""
+                        className={`xbtn h-1 w-full rounded-lg transform transition duration-300 ease-in-out ${
+                            open
+                                ? " -rotate-45 -translate-y-3.5 bg-black"
+                                : "bg-white"
                         }`}
                     />
                 </div>
