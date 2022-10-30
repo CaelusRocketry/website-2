@@ -14,11 +14,11 @@ function NavLink({ to, children }) {
 function MobileNav({ open, setOpen }) {
     return (
         <div
-            className={`absolute top-0 left-0 h-screen w-screen bg-black transform ${
+            className={`absolute top-0 left-0 h-screen w-screen bg-white transform ${
                 open ? "-translate-x-0" : "-translate-x-full"
             } transition-transform duration-300 ease-in-out filter drop-shadow-md topmost`}
         >
-            <div className="flex items-center justify-center filter drop-shadow-md bg-black h-20">
+            <div className="flex items-center justify-center filter drop-shadow-md bg-white h-20">
                 {" "}
                 {/*logo container*/}
                 <Link className="text-xl font-semibold" href="/">
@@ -116,6 +116,7 @@ export default function Navbar() {
                 <div className="hideme pl-8 text-white">
                     <NavLink to="/About">ABOUT</NavLink>
                 </div>
+
                 <div className="hideme pl-8 text-white">
                     <NavLink to="/projects">PROJECTS</NavLink>
                 </div>
