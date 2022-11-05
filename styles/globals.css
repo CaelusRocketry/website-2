@@ -120,6 +120,11 @@ a {
         padding: 10vw;
     }
     .desc-largep {
+        padding: 0;
+    }
+}
+@media (min-width: 760.000001px) {
+    .desc-largep {
         padding: 2.5rem;
     }
 }
