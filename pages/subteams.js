@@ -102,7 +102,7 @@ export default function subteams() {
                                                     </h1>
                                                 </div>
 
-                                                <h1 className="ml-20 pb-40 text-white text-2xl flex flex-row justify-evenly items-center"></h1>
+                                                <h1 className="ml-20 pb-4 text-white text-2xl flex flex-row justify-evenly items-center"></h1>
                                             </div>
                                         </div>
                                     </div>

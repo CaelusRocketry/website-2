@@ -756,7 +756,7 @@ export default function about() {
                     </div>
                 </div>
 
-                <div className="flex items-center justify-center pt-48 pb-48 h-3/4 bg-black font-extralight text-white text-2xl">
+                <div className="flex items-center justify-center pt-48 pb-48 pl-12 h-3/4 bg-black font-extralight text-white text-2xl">
                     <div>
                         <h1>We are a team.</h1>
                         <h1>We are a community.</h1>
