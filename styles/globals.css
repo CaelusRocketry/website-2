@@ -150,5 +150,6 @@ a {
 }
 
 .topmost {
-    z-index: 1000;
+    position: fixed;
+    z-index: 1000 !important;
 }
