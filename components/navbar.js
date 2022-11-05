@@ -18,16 +18,16 @@ function MobileNav({ open, setOpen }) {
                 open ? "-translate-x-0" : "-translate-x-full"
             } transition-transform duration-300 ease-in-out filter drop-shadow-md topmost`}
         >
-            <div className="flex items-center justify-center filter drop-shadow-md bg-black h-20">
+            <div className="flex items-center justify-center filter drop-shadow-md bg-white h-20">
                 {" "}
                 {/*logo container*/}
-                <Link className="text-xl font-semibold text-white" href="/">
+                <Link className="text-xl font-semibold" href="/">
                     LOGO
                 </Link>
             </div>
-            <div className="flex flex-col ml-4 bg-black">
+            <div className="flex flex-col ml-4">
                 <Link
-                    className="text-xl font-medium my-4 text-white"
+                    className="text-xl font-medium my-4"
                     href="/home"
                     onClick={() =>
                         setTimeout(() => {
@@ -38,7 +38,7 @@ function MobileNav({ open, setOpen }) {
                     Home
                 </Link>
                 <Link
-                    className="text-xl font-normal my-4 text-white"
+                    className="text-xl font-normal my-4"
                     href="/projects"
                     onClick={() =>
                         setTimeout(() => {
@@ -49,7 +49,7 @@ function MobileNav({ open, setOpen }) {
                     Projects
                 </Link>
                 <Link
-                    className="text-xl font-normal my-4 text-white"
+                    className="text-xl font-normal my-4"
                     href="/subteams"
                     onClick={() =>
                         setTimeout(() => {
@@ -60,7 +60,7 @@ function MobileNav({ open, setOpen }) {
                     Subteams
                 </Link>
                 <Link
-                    className="text-xl font-normal my-4 text-white"
+                    className="text-xl font-normal my-4"
                     href="/Linkbout"
                     onClick={() =>
                         setTimeout(() => {
@@ -71,7 +71,7 @@ function MobileNav({ open, setOpen }) {
                     About
                 </Link>
                 <Link
-                    className="text-xl font-normal my-4 text-white"
+                    className="text-xl font-normal my-4"
                     href="/blog"
                     onClick={() =>
                         setTimeout(() => {
@@ -82,7 +82,7 @@ function MobileNav({ open, setOpen }) {
                     Blog
                 </Link>
                 <Link
-                    className="text-xl font-normal my-4 text-white"
+                    className="text-xl font-normal my-4"
                     href="/donate"
                     onClick={() =>
                         setTimeout(() => {
