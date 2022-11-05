@@ -119,6 +119,9 @@ a {
         flex-direction: column;
         padding: 10vw;
     }
+    .desc-largep {
+        padding: 2.5rem;
+    }
 }
 .projects-flex1 {
     gap: 10vw;
