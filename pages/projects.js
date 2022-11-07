@@ -18,6 +18,7 @@ import cat8 from "../public/images/c1.webp";
 import cat9 from "../public/images/cal3.webp";
 import cat10 from "../public/images/li_auto_x2.jpg";
 import cat11 from "../public/images/c3.webp";
+import Link from 'next/link';
 
 const myLoader = ({ src, width, quality }) => {
     return `https://images.unsplash.com/photo-1604999565976-8913ad2ddb7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&h=160&q=80/${src}?w=${width}&q=${
@@ -52,12 +53,13 @@ export default function projects() {
                                                 <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">
                                                     Project Caelus
                                                 </div>
-                                                <a
+                                                <Link
                                                     href="/ethanol"
                                                     className="block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline"
                                                 >
-                                                    Ethanol Cold Flow
-                                                </a>
+                                                    <h1                                                     className="block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline"
+>Ethanol Cold Flow</h1>
+                                                </Link>
                                                 <p className="mt-2 text-black"></p>
                                             </div>
                                         </div>
@@ -78,12 +80,13 @@ export default function projects() {
                                                 <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">
                                                     Project Caelus
                                                 </div>
-                                                <a
+                                                <Link
                                                     href="/nitrouswater"
                                                     className="block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline"
                                                 >
-                                                    Nitrous Cold Flow (Water)
-                                                </a>
+                                                    <h1                                                     className="block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline"
+>Nitrous Cold Flow (Water)</h1>
+                                                </Link>
                                                 <p className="mt-2 text-black"></p>
                                             </div>
                                         </div>
@@ -104,12 +107,13 @@ export default function projects() {
                                                 <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">
                                                     Project Caelus
                                                 </div>
-                                                <a
+                                                <Link
                                                     href="/nitrous"
                                                     className="block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline"
                                                 >
-                                                    Nitrous Cold Flow
-                                                </a>
+                                                    <h1                                                     className="block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline"
+>Nitrous Cold Flow</h1>
+                                                </Link>
                                                 <p className="mt-2 text-black"></p>
                                             </div>
                                         </div>
@@ -139,12 +143,13 @@ export default function projects() {
                                                 <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">
                                                     Project Caelus
                                                 </div>
-                                                <a
+                                                <Link
                                                     href="/fullwater"
                                                     className="block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline"
                                                 >
-                                                    Full Cold Flow
-                                                </a>
+                                                    <h1                                                     className="block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline"
+>Full Cold Flow</h1>
+                                                </Link>
                                                 <p className="mt-2 text-black"></p>
                                             </div>
                                         </div>
@@ -165,12 +170,13 @@ export default function projects() {
                                                 <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">
                                                     Project Caelus
                                                 </div>
-                                                <a
+                                                <Link
                                                     href="/staticc"
                                                     className="block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline"
                                                 >
-                                                    Static Engine Fire
-                                                </a>
+                                                    <h1                                                     className="block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline"
+>Static Engine Fire</h1>
+                                                </Link>
                                                 <p className="mt-2 text-black"></p>
                                             </div>
                                         </div>
@@ -200,12 +206,13 @@ export default function projects() {
                                                 <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">
                                                     Project Caelus
                                                 </div>
-                                                <a
+                                                <Link
                                                     href="/c1"
                                                     className="block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline"
                                                 >
-                                                    Callisto I
-                                                </a>
+                                                    <h1                                                     className="block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline"
+>Callisto I</h1>
+                                                </Link>
                                                 <p className="mt-2 text-black"></p>
                                             </div>
                                         </div>
@@ -226,12 +233,13 @@ export default function projects() {
                                                 <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">
                                                     Project Caelus
                                                 </div>
-                                                <a
+                                                <Link
                                                     href="/c2"
                                                     className="block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline"
                                                 >
-                                                    Callisto II
-                                                </a>
+                                                    <h1                                                     className="block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline"
+>Callisto II</h1>
+                                                </Link>
                                                 <p className="mt-2 text-black"></p>
                                             </div>
                                         </div>
@@ -252,12 +260,12 @@ export default function projects() {
                                                 <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">
                                                     Project Caelus
                                                 </div>
-                                                <a
+                                                <Link
                                                     href="/c3"
                                                     className="block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline"
                                                 >
-                                                    Callisto III
-                                                </a>
+                                                    <h1 className = "block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline">Callisto III</h1>
+                                                </Link>
                                                 <p className="mt-2 text-black"></p>
                                             </div>
                                         </div>
