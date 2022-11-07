@@ -1,162 +1,95 @@
-import { useState } from "react";
-import Image from "next/image";
-import cat1 from "../public/images/download-removebg-preview.png";
-import Link from "next/link";
+import Link from 'next/link';
+import React, { useState, useEffect } from 'react';
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
-function NavLink({ to, children }) {
-    return (
-        <Link href={to} className={`mx-4`}>
-            {children}
+const Navbar = () => {
+  const [nav, setNav] = useState(false);
+  const [color, setColor] = useState('transparent');
+  const [textColor, setTextColor] = useState('white');
+
+  const handleNav = () => {
+    setNav(!nav);
+  };
+
+  useEffect(() => {
+    const changeColor = () => {
+      if (window.scrollY >= 90) {
+        setColor('#000000');
+        setTextColor('#ffffff');
+      } else {
+        setColor('#000000');
+        setTextColor('#ffffff');
+      }
+    };
+    window.addEventListener('click', changeColor);
+  }, []);
+
+  return (
+    <div
+      style={{ backgroundColor: `${color}` }}
+      className='fixed left-0 top-0 w-full z-10 ease-in duration-300'
+    >
+      <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
+        <Link href='/'>
+          <h1 style={{ color: `${textColor}` }} className='font-bold text-4xl'>
+            Project Caelus
+          </h1>
         </Link>
-    );
-}
+        <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
+          <li className='p-4'>
+            <Link href='/'>Home</Link>
+          </li>
+          <li className='p-4'>
+            <Link href='/About'>About</Link>
+          </li>
+          <li className='p-4'>
+            <Link href='/projects'>Projects</Link>
+          </li>
+          <li className='p-4'>
+            <Link href='/subteams'>Subteams</Link>
+          </li>
+          <li className='p-4'>
+            <Link href='/blog'>Blog</Link>
+          </li>
+        </ul>
 
-function MobileNav({ open, setOpen }) {
-    return (
-        <div
-            className={`absolute top-0 left-0 h-screen w-screen bg-white transform ${
-                open ? "-translate-x-0" : "-translate-x-full"
-            } transition-transform duration-300 ease-in-out filter drop-shadow-md topmost`}
-        >
-            <div className="flex items-center justify-center filter drop-shadow-md bg-white h-20">
-                {" "}
-                {/*logo container*/}
-                <Link className="text-xl font-semibold" href="/">
-                    LOGO
-                </Link>
-            </div>
-            <div className="flex flex-col ml-4">
-                <Link
-                    className="text-xl font-medium my-4"
-                    href="/home"
-                    onClick={() =>
-                        setTimeout(() => {
-                            setOpen(!open);
-                        }, 100)
-                    }
-                >
-                    Home
-                </Link>
-                <Link
-                    className="text-xl font-normal my-4"
-                    href="/projects"
-                    onClick={() =>
-                        setTimeout(() => {
-                            setOpen(!open);
-                        }, 100)
-                    }
-                >
-                    Projects
-                </Link>
-                <Link
-                    className="text-xl font-normal my-4"
-                    href="/subteams"
-                    onClick={() =>
-                        setTimeout(() => {
-                            setOpen(!open);
-                        }, 100)
-                    }
-                >
-                    Subteams
-                </Link>
-                <Link
-                    className="text-xl font-normal my-4"
-                    href="/Linkbout"
-                    onClick={() =>
-                        setTimeout(() => {
-                            setOpen(!open);
-                        }, 100)
-                    }
-                >
-                    About
-                </Link>
-                <Link
-                    className="text-xl font-normal my-4"
-                    href="/blog"
-                    onClick={() =>
-                        setTimeout(() => {
-                            setOpen(!open);
-                        }, 100)
-                    }
-                >
-                    Blog
-                </Link>
-                <Link
-                    className="text-xl font-normal my-4"
-                    href="/donate"
-                    onClick={() =>
-                        setTimeout(() => {
-                            setOpen(!open);
-                        }, 100)
-                    }
-                >
-                    Donate
-                </Link>
-            </div>
+        {/* Mobile Button */}
+        <div onClick={handleNav} className='block sm:hidden z-10'>
+          {nav ? (
+            <AiOutlineClose size={20} style={{ color: `${textColor}` }} />
+          ) : (
+            <AiOutlineMenu size={20} style={{ color: `${textColor}` }} />
+          )}
         </div>
-    );
-}
+        {/* Mobile Menu */}
+        <div
+          className={
+            nav
+              ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
+              : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
+          }
+        >
+          <ul>
+            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+              <Link href='/'>Home</Link>
+            </li>
+            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+            <Link href='/About'>About</Link>
+            </li>
+            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+            <Link href='/projects'>Projects</Link>
+            </li>
+            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+            <Link href='/subteams'>Subteams</Link>
+            </li>
+            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+            <Link href='/blog'>Blog</Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default function Navbar() {
-    const [open, setOpen] = useState(false);
-    return (
-        <nav className="flex filter drop-shadow-md bg-black px-4 py-4 h-20 items-center">
-            <MobileNav open={open} setOpen={setOpen} />
-            <div className="font-extralight pl-8 w-/12 flex items-center">
-                <div className=" h-16 w-24 relative">
-                    <Image
-                        src={cat1}
-                        layout="fill" // required
-                    ></Image>
-                </div>
-                <div className="hideme pl-8 text-white">
-                    <NavLink to="/">HOME</NavLink>
-                </div>
-
-                <div className="hideme pl-8 text-white">
-                    <NavLink to="/About">ABOUT</NavLink>
-                </div>
-
-                <div className="hideme pl-8 text-white">
-                    <NavLink to="/projects">PROJECTS</NavLink>
-                </div>
-
-                <div className="hideme pl-8 text-white">
-                    <NavLink to="/subteams">SUBTEAMS</NavLink>
-                </div>
-
-                <div className="hideme pl-8 text-white">
-                    <NavLink to="/blog">BLOG</NavLink>
-                </div>
-            </div>
-            <div className="w-9/12 flex justify-end items-center">
-                <div
-                    className="z-50 flex relative w-8 h-8 flex-col justify-between items-center md:hidden"
-                    onClick={() => {
-                        setOpen(!open);
-                    }}
-                >
-                    {/* hamburger button */}
-                    <span
-                        className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${
-                            open ? "rotate-45 translate-y-3.5" : ""
-                        }`}
-                    />
-                    <span
-                        className={`h-1 w-full bg-white rounded-lg transition-all duration-300 ease-in-out ${
-                            open ? "w-0" : "w-full"
-                        }`}
-                    />
-                    <span
-                        className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${
-                            open ? "-rotate-45 -translate-y-3.5" : ""
-                        }`}
-                    />
-                </div>
-                <div className="hideme font-extralight pr-16 text-white">
-                    <NavLink to="/donate">DONATE</NavLink>
-                </div>
-            </div>
-        </nav>
-    );
-}
+export default Navbar;

@@ -33,10 +33,14 @@ import cal3 from "../public/images/cal3.webp";
 import Attribute from "../components/attribute";
 import Description from "../components/description";
 import TimelineItem from "../components/timelineItem";
+import Head from "next/head";
 
 export default function Home() {
     return (
         <div>
+            <Head>
+                <title>Home | Project Caelus</title>
+            </Head>
             <div className="bg-black">
                 {/* CAELUS TRAILER */}
                 <video

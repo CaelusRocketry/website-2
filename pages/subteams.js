@@ -44,10 +44,10 @@ export default function subteams() {
     return (
         <div>
             <Head>
-                <title>About</title>
+                <title>Subteams | Project Caelus</title>
             </Head>
             <main className="h-screen bg-black">
-                <div className="text-black">
+                <div className="pt-24 text-black">
                     <div className="">
                         <div className=" bg-black relative overflow-hidden">
                             <div className="pb-8 object-contain h-full w-full">
