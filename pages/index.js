@@ -56,7 +56,7 @@ export default function Home() {
                 </video>
 
                 <div className="flex flex-row items-center pt-6 pb-12">
-                    <div className="flex flex-col items-center pl-10 pr-10">
+                    <div className="flex flex-col items-center pl-10 pr-10 pt-10">
                         <Description title="Project Caelus" subtitle="Mission">
                             The mission at Project Caelus is to design, build,
                             test, and launch a bipropellant liquid-fueled rocket

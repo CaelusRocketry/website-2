@@ -38,7 +38,7 @@ export default function about() {
                         <div className="flex flex-items-center justify-center pb-12   underline-offset-8 decoration-4 tracking-wide text-3xl text-white font-extralight semibold">
                             Aditya Vasantharao
                         </div>
-                        <div className="text-white pr-16 pl-16 pb-4">
+                        <div className="text-white pr-16 pl-16 pb-8">
                             <div className="">
                                 <h1>
                                     Hi! I&apos;m Aditya, the president of
@@ -397,7 +397,7 @@ export default function about() {
 
 
                 <div className="flex flex-items-center justify-center pt-12 pb-8 underline decoration-indigo-500 underline-offset-8 decoration-4 uppercase tracking-wide text-4xl text-white font-extralight semibold">
-                    Including our Sponsors
+                    Sponsors
                 </div>
                 <div className=" h-screen">
                     <div className="pl-10 pr-10 snap-x mx-auto snap-mandatory h-screen flex w-screen overflow-scroll">

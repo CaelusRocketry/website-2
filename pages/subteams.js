@@ -47,17 +47,18 @@ export default function subteams() {
                 <title>Subteams | Project Caelus</title>
             </Head>
             <main className="h-screen bg-black">
-                <div className="pt-24 text-black">
+                <div className="pt-36 text-black">
                     <div className="">
                         <div className=" bg-black relative overflow-hidden">
                             <div className="pb-8 object-contain h-full w-full">
                                 <Image className="h-screen w-screen" src={ca} />
                             </div>
-                            <div className="absolute w-full bottom-0 inset-x-0 text-white text-xs text-center leading-4">
-                                <div className=" mb-4 flex items-center justify-center">
+                            <div className="pt-12 absolute w-full bottom-0 inset-x-0 text-white text-xs text-center leading-4">
+                                <div className="pt-12 mb-4 flex items-center justify-center">
                                     <div>
-                                        <div className="font-thin pl-24 pb-36 flex flex-row subteam-list">
+                                        <div className="pt-12 font-thin pl-24 pb-36 flex flex-row subteam-list">
                                             <div>
+        
                                                 <div className=" transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24 flex flex-row">
                                                     <h1 className=" text-white text-2xl flex flex-row justify-evenly items-center">
                                                         Propulsion
@@ -93,14 +94,11 @@ export default function subteams() {
                                                         Avionics
                                                     </h1>
                                                 </div>
+                                                
                                             </div>
 
                                             <div>
-                                                <div className="pt-72 pl-72 transition ease-in-out font-extralight hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4  flex flex-row technical-side">
-                                                    <h1 className="text-white text-5xl ">
-                                                        The Technical Side
-                                                    </h1>
-                                                </div>
+                                                
 
                                                 <h1 className="ml-20 pb-4 text-white text-2xl flex flex-row justify-evenly items-center"></h1>
                                             </div>
