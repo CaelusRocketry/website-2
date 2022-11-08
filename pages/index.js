@@ -57,6 +57,7 @@ export default function Home() {
 
                 <div className="flex flex-row items-center pt-6 pb-12">
                     <div className="flex flex-col items-center pl-10 pr-10 pt-10">
+                        <div className = "pb-4">
                         <Description title="Project Caelus" subtitle="Mission">
                             The mission at Project Caelus is to design, build,
                             test, and launch a bipropellant liquid-fueled rocket
@@ -71,7 +72,7 @@ export default function Home() {
                             exploring science and pushing technological
                             boundaries.
                         </Description>
-
+                        </div>
                         <Description title="The Rocket" subtitle="Callisto I">
                             The Callisto I launch vehicle will utilize an
                             improved version of our custom-made engine, designed
