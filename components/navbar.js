@@ -1,10 +1,12 @@
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import cat5 from "../public/images/download-removebg-preview.png";
+import Image from "next/image";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const [color, setColor] = useState('transparent');
+  const [color, setColor] = useState('#000000');
   const [textColor, setTextColor] = useState('white');
 
   const handleNav = () => {
@@ -31,9 +33,10 @@ const Navbar = () => {
     >
       <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
         <Link href='/'>
-          <h1 style={{ color: `${textColor}` }} className='font-bold text-4xl'>
-            Project Caelus
-          </h1>
+            <div className = "object-contain h-12 w-20">
+            <Image src={cat5} alt=""></Image>
+            </div>
+
         </Link>
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
           <li className='p-4'>
