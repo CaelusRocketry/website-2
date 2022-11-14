@@ -29,15 +29,21 @@ const Navbar = () => {
   return (
     <div
       style={{ backgroundColor: `${color}` }}
-      className='fixed left-0 top-0 w-full z-10 ease-in duration-300'
+      className='fixed left-0 top-0 w-full z-20 ease-in duration-300'
     >
       <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
+        <div className = "flex flex-row">
+  
         <Link href='/'>
             <div className = "object-contain h-12 w-20">
             <Image src={cat5} alt=""></Image>
             </div>
 
         </Link>
+        <div className = "text-2xl font-thin pt-2 pl-4">
+        <Link href='/'>PROJECT CAELUS</Link></div>
+        </div>
+ 
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
           <li className='p-4'>
             <Link href='/'>Home</Link>
@@ -57,7 +63,7 @@ const Navbar = () => {
         </ul>
 
         {/* Mobile Button */}
-        <div onClick={handleNav} className='block sm:hidden z-10'>
+        <div onClick={handleNav} className='block sm:hidden z-20'>
           {nav ? (
             <AiOutlineClose size={20} style={{ color: `${textColor}` }} />
           ) : (

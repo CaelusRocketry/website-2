@@ -41,21 +41,27 @@ export default function Home() {
             <Head>
                 <title>Home | Project Caelus</title>
             </Head>
+
             <div className="bg-black">
                 {/* CAELUS TRAILER */}
+                <div className="pt-16 flex items-center justify-center h-screen mb-12 overflow-hidden">
+                <div className="pr-96 pl-20 flex items-center justify-start absolute z-10 p-5 text-6xl text-white bg-white bg-opacity-0 rounded-xl">
+  </div>
                 <video
                     autoPlay
                     loop
                     muted
-                    className="mainvideo w-auto min-w-full min-h-full max-w-none"
+                    className="mainvideo absolute w-auto min-w-full min-h-full max-w-none"
                 >
                     <source
-                        src="images/E75F364A-73A8-414F-82B1-B2FC4436024D.MOV"
+                        src="images/e4.mp4"
                         type="video/mp4"
                     />
                 </video>
+                </div>
 
-                <div className="flex flex-row items-center pt-6 pb-12">
+
+                <div className="flex flex-row items-center pb-12">
                     <div className="flex flex-col items-center pl-10 pr-10 pt-10">
                         <div className = "pb-4">
                         <Description title="Project Caelus" subtitle="Mission">
