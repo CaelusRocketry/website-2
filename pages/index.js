@@ -45,8 +45,7 @@ export default function Home() {
             <div className="bg-black">
                 {/* CAELUS TRAILER */}
                 <div className="pt-16 flex items-center justify-center h-screen mb-12 overflow-hidden">
-                <div className="pr-96 pl-20 flex items-center justify-start absolute z-10 p-5 text-6xl text-white bg-white bg-opacity-0 rounded-xl">
-  </div>
+                
                 <video
                     autoPlay
                     loop
