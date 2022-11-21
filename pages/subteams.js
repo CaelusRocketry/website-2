@@ -107,10 +107,8 @@ export default function subteams() {
                                 </div>
                             </div>
                         </div>
-
-                        <div className="h-screen bg-black">
-                            <div className="snap-x mx-auto snap-mandatory h-screen flex w-screen overflow-scroll">
-                                <div className="bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
+                        <div className = "bg-black">
+                        <div className="bg-black h-screen w-screen ">
                                     <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">
                                         Propulsion
                                     </div>
@@ -130,8 +128,9 @@ export default function subteams() {
                                         ></Image>
                                     </div>
                                 </div>
-
-                                <div className="bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
+                        </div>
+                        <div className = "bg-black">
+                        <div className="bg-black h-screen w-screen ">
                                     <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">
                                         Manufacturing
                                     </div>
@@ -151,8 +150,9 @@ export default function subteams() {
                                         ></Image>
                                     </div>
                                 </div>
-
-                                <div className="bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
+                        </div>
+                        <div className = "bg-black">
+                        <div className="bg-black h-screen w-screen ">
                                     <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">
                                         Structures
                                     </div>
@@ -176,8 +176,9 @@ export default function subteams() {
                                         </div>
                                     </div>
                                 </div>
-
-                                <div className="bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
+                            </div>
+                            <div className = "bg-black">
+                            <div className="bg-black h-screen w-screen ">
                                     <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">
                                         Software
                                     </div>
@@ -201,8 +202,9 @@ export default function subteams() {
                                         </div>
                                     </div>
                                 </div>
-
-                                <div className="bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
+                            </div>
+                            <div className = "bg-black">
+                            <div className="bg-black h-screen w-screen ">
                                     <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">
                                         Testing
                                     </div>
@@ -240,8 +242,9 @@ export default function subteams() {
                                         </div>
                                     </div>
                                 </div>
-
-                                <div className="bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
+                            </div>
+                            <div className = "bg-black">
+                            <div className="bg-black h-screen w-screen ">
                                     <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">
                                         Avionics
                                     </div>
@@ -262,15 +265,13 @@ export default function subteams() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <div className="pt-8 h-screen bg-black">
-                            <div className=" flex items-center justify-center pt-8 pb-12 tracking-wide text-5xl text-white underline decoration-indigo-500 underline-offset-8 decoration-4 font-extralight">
+                            <div className = "bg-black">
+                            <div className=" flex items-center justify-center pt-32 pb-12 tracking-wide text-5xl text-white underline decoration-indigo-500 underline-offset-8 decoration-4 font-extralight">
                                 The Operations Side
                             </div>
-
-                            <div className="snap-x mx-auto snap-mandatory h-screen flex w-screen overflow-scroll">
-                                <div className="bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
+</div>
+                            <div className = "bg-black">
+                            <div className="bg-black h-screen w-screen ">
                                     <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">
                                         Outreach
                                     </div>
@@ -306,8 +307,9 @@ export default function subteams() {
                                         ></Image>
                                     </div>
                                 </div>
-
-                                <div className="bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
+                            </div>
+                            <div className = "bg-black">
+                            <div className="bg-black h-screen w-screen ">
                                     <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">
                                         Finance
                                     </div>
@@ -327,8 +329,10 @@ export default function subteams() {
                                         ></Image>
                                     </div>
                                 </div>
+                            </div>
+                            <div className = "bg-black">
 
-                                <div className="bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
+                            <div className="bg-black h-screen w-screen ">
                                     <div className="pt-10 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">
                                         Networking
                                     </div>
@@ -352,8 +356,9 @@ export default function subteams() {
                                         </div>
                                     </div>
                                 </div>
-
-                                <div className="bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0">
+                            </div>
+                            <div className = "bg-black">
+                            <div className="bg-black h-screen w-screen ">
                                     <div className="pt-10 pb-15 flex items-center justify-center tracking-wide text-4xl text-white font-extralight semibold">
                                         Social Media
                                     </div>
@@ -385,8 +390,14 @@ export default function subteams() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                            
                     </div>
+                </div>
+                <div className="pt-30 font-thin bg-slate-900 text-center flex-col items-center justify center">
+                    <h1 className="underline underline-offset-8 decoration-1 text-center text-white text-lg pt-12 pb-12">
+                        Project Caelus | Copyright © 2018-2022. All rights
+                        reserved.
+                    </h1>
                 </div>
                 <div></div>
             </main>

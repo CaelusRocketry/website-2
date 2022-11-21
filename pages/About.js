@@ -9,6 +9,9 @@ import cat6 from "../public/images/ar.webp";
 import cat7 from "../public/images/n.png";
 import cat8 from "../public/images/sa.webp";
 import cat9 from "../public/images/v.png";
+import mich from "../public/images/mich.png";
+import sts from "../public/images/sts.png";
+
 
 import d from "../public/images/Screen Shot 2022-04-23 at 11.04.38 AM.png";
 import c from "../public/images/company-mission-statement-hero-@2x.jpeg";
@@ -397,50 +400,14 @@ export default function about() {
 
 
                 <div className="flex flex-items-center justify-center pt-12 pb-8 underline decoration-indigo-500 underline-offset-8 decoration-4 uppercase tracking-wide text-4xl text-white font-extralight semibold">
-                    Sponsors
+                    Sponsors/Mentors
                 </div>
-                <div className=" h-screen">
-                    <div className="pl-10 pr-10 snap-x mx-auto snap-mandatory h-screen flex w-screen overflow-scroll">
-                        <div className="bg-gradient-to-r from-slate-900 to-black w-screen snap-start flex-shrink-0">
-                            <div className="flex flex-items justify-center">
-                                <div className="pt-8">
-                                    <Image src={cat7} alt=""></Image>
+                                <div className="">
+                                    <Image src={sts} alt=""></Image>
                                 </div>
-                            </div>
-                        </div>
 
-                        <div className="bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0 flex flex-row">
-                            <div className="pt-16 pr-32 pl-32">
-                                <Image src={cat6} alt=""></Image>
-                            </div>
-                        </div>
-                        <div className="bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0 flex flex-row">
-                            <div className="pt-48 pr-32 pl-32">
-                                <Image src={cat9} alt=""></Image>
-                            </div>
-                        </div>
-                        <div className="bg-gradient-to-r from-slate-900 to-black h-screen w-screen snap-start flex-shrink-0 flex flex-row">
-                            <div className="pt-16 pr-32 pl-32">
-                                <Image src={cat8} alt=""></Image>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div className="flex items-center justify-center pt-48 pb-48 pl-12 h-3/4 bg-black font-extralight text-white text-2xl">
-                    <div>
-                        <h1>We are a team.</h1>
-                        <h1>We are a community.</h1>
-                        <h1>We provide opportunity.</h1>
-                        <h1>We share our experiences.</h1>
-                        <h1>We are...</h1>
-                        <h1>Project Caelus</h1>
-                    </div>
-                    <div className="underline decoration-indigo-500 underline-offset-8 decoration-4 pl-12">
-                        <h1>- The 2022 Project Caelus Team</h1>
-                    </div>
-                </div>
-                <div className="font-thin bg-slate-900 text-center flex-col items-center justify center">
+                <div className="pt-30 font-thin bg-slate-900 text-center flex-col items-center justify center">
                     <h1 className="underline underline-offset-8 decoration-1 text-center text-white text-lg pt-12 pb-12">
                         Project Caelus | Copyright © 2018-2022. All rights
                         reserved.

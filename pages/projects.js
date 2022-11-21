@@ -32,8 +32,8 @@ export default function projects() {
                 <title>Projects | Project Caelus</title>
             </Head>
             <main className=" h-screen">
-                <div className="pt-24 bg-gradient-to-r from-slate-900 to-black">
-                    <div className="bg-gradient-to-r from-slate-900 to-black">
+                <div className="pt-24 bg-black">
+                    <div className="bg-black">
                         <div className="flex flex-items justify-center pt-12">
                             <div className="underline decoration-red-400 underline-offset-8 decoration-4 uppercase tracking-wide text-4xl text-white font-extralight semibold">
                                 Completed
@@ -123,7 +123,7 @@ export default function projects() {
                         </div>
                     </div>
 
-                    <div className="bg-gradient-to-r from-slate-900 to-black">
+                    <div className="bg-black">
                         <div className="flex flex-items justify-center pt-24">
                             <div className="underline decoration-red-400 underline-offset-8 decoration-4 uppercase tracking-wide text-4xl text-white font-extralight semibold">
                                 In Progress
@@ -186,7 +186,7 @@ export default function projects() {
                         </div>
                     </div>
 
-                    <div className="pb-8 bg-gradient-to-r from-slate-900 to-black">
+                    <div className="pb-8 bg-black">
                         <div className="flex flex-items justify-center pt-24">
                             <div className="underline decoration-red-400 underline-offset-8 decoration-4 uppercase tracking-wide text-4xl text-white font-extralight semibold">
                                 Planned
